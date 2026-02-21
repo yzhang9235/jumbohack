@@ -3,8 +3,8 @@
 ## Our Team:
 - Ava Reijmers – UI/UX Design (Figma), Frontend Development, Product Vision
 - Elaine Zhang – Original Idea, Product Direction, Deployment
-- Tiffany Huang – Translated Figma React + Tailwind to VS Code Implementation
 - Subhangi Pal – Course Data Structuring + Searching Feature
+- Tiffany Huang – Translated Figma React + Tailwind to VS Code Implementation
 
 ## Description
 
