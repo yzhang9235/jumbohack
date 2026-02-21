@@ -16,35 +16,45 @@ import { ChevronDown, ChevronUp, ArrowLeft, Target, Lightbulb } from "lucide-rea
 import type { UserFormData } from "./types";
 
 // Import function that takes user's answer and return career matches
-/* keeps matching */
+/* keeps career matching from roles*/
 import { generateCareerMatches } from "./roles";
 
 // Properties expected by ResultsPage 
 interface ResultsPageProps {
-  userFormData: UserFormData; // Collected answers from input 
+  userFormData: UserFormData; // Collected answers from the form 
   onBack: () => void;         // Makes the page go back to the previous page when click the back buttom 
 }
 
 export function ResultsPage({ userFormData, onBack }: ResultsPageProps) {
+  // creates expandedcard that either stores a number of null
+  // setExpandedCard is the function call to change it 
   const [expandedCard, setExpandedCard] = useState<number | null>(null);
 
-  // Get matches from roles.ts
+  // Return top three matches 
+  /* Result is career match (array) including title, matchPercentage, why, 
+   skill and next steps */
   const careerMatches = generateCareerMatches(userFormData, 3);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 via-amber-50/30 to-slate-50 py-12 px-4">
+    // outer container for the entire page
+    <div className="min-h-screen bg-gradient-to-br from-blue-50 via-amber-50/30 to-slate-50 py-12 px-4"> 
+      {/* Centers cntent and limit width */}
       <div className="max-w-4xl mx-auto">
         {/* Header */}
         <div className="mb-8">
+          {/* When clicked, caall the onBack function; variant = ghost means
+          minimal style, and classname sets color */}
           <Button
             onClick={onBack}
             variant="ghost"
             className="mb-4 text-slate-500 hover:text-slate-700"
           >
+            {/* Show arrow icon and text */}
             <ArrowLeft className="w-4 h-4 mr-2" />
             Back to Form
           </Button>
 
+            {/* Title row with an elephant emoji and title */}
           <div className="flex items-center gap-3 mb-2">
             <span className="text-3xl opacity-60">🐘</span>
             <h1 className="text-4xl text-slate-700">Your Top Career Matches</h1>
@@ -55,14 +65,20 @@ export function ResultsPage({ userFormData, onBack }: ResultsPageProps) {
 
         {/* Results */}
         <div className="space-y-6">
+          {/* Goes through the array and produce UI for each item; 
+          match is the match object and index is the position in the list */}
           {careerMatches.map((match, index) => (
+            // Card UI is created for each match with key = {index} help React track list items; also styling included in (border, corner, shadow)
             <Card
               key={index}
               className="p-6 bg-white rounded-xl border border-slate-200/60 shadow-sm hover:shadow-md transition-shadow"
             >
-              <div className="space-y-4">
+              {/* Vertical stack with spacing */}
+              <div className="space-y-4"> 
                 {/* Title + Score */}
+                {/* Left content + right badge (match #s) with justify-between pushing them to opposite sides */}
                 <div className="flex items-start justify-between">
+                  {/* Job title is display for this match with match score */}
                   <div>
                     <h2 className="text-2xl text-slate-700 mb-2">{match.title}</h2>
                     <div className="flex items-center gap-3">
@@ -76,17 +92,21 @@ export function ResultsPage({ userFormData, onBack }: ResultsPageProps) {
                   </div>
                 </div>
 
+                {/* Progress bar filled to the percentage in result */}
                 <Progress value={match.matchPercentage} className="h-2" />
 
                 {/* Why Matches */}
+                {/* A light colored box */}
                 <div className="bg-blue-50/30 p-4 rounded-lg border border-blue-100/50">
+                {/* Section header with an icon */}
                   <div className="flex items-center gap-2 mb-3">
                     <Target className="w-4 h-4 text-blue-500" />
                     <h3 className="text-sm text-slate-700">Why This Matches You</h3>
                   </div>
-
+                  {/* Loop through reason and render each one */}
                   <ul className="space-y-2">
                     {match.whyMatches.map((reason, i) => (
+                      // Each reason is a bullet point 
                       <li key={i} className="flex items-start gap-2 text-sm text-slate-600">
                         <div className="w-1.5 h-1.5 bg-blue-400 rounded-full mt-2" />
                         {reason}
@@ -96,10 +116,13 @@ export function ResultsPage({ userFormData, onBack }: ResultsPageProps) {
                 </div>
 
                 {/* Expand Button */}
+                {/* If the card is already opened, set it to NULL and close it*/}
+                {/* Else, set it to index and open this new card while closing the other one */}
                 <button
                   onClick={() => setExpandedCard(expandedCard === index ? null : index)}
                   className="w-full flex items-center justify-between pt-4 border-t border-slate-200/60 text-slate-600 hover:text-slate-700"
                 >
+                  {/* Text and icon change depending on open or close */}
                   <span className="text-sm">
                     {expandedCard === index ? "Hide details" : "Show skill gaps & next steps"}
                   </span>
@@ -110,7 +133,7 @@ export function ResultsPage({ userFormData, onBack }: ResultsPageProps) {
                   )}
                 </button>
 
-                {/* Expanded Content */}
+                {/* Expanded Content and only show if card is expanded */}
                 {expandedCard === index && (
                   <div className="space-y-6 pt-4 border-t border-slate-200/60">
                     {/* Skill Gaps */}
