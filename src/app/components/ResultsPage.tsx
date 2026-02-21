@@ -1,4 +1,7 @@
-//
+
+// UseState let the component remember something (state) when the user interacts
+// with it 
+// Use to remember which card (career match) is expanded
 import { useState } from "react";
 
 // Connect with UI components 
@@ -6,17 +9,20 @@ import { Card } from "./ui/card";
 import { Button } from "./ui/button";
 import { Progress } from "./ui/progress";
 
-// Showing different icons
+// Showing different icons from the library
 import { ChevronDown, ChevronUp, ArrowLeft, Target, Lightbulb } from "lucide-react";
 
 // Import the different files in the folder
 import type { UserFormData } from "./types";
+
+// Import function that takes user's answer and return career matches
+/* keeps matching */
 import { generateCareerMatches } from "./roles";
 
 // Properties expected by ResultsPage 
 interface ResultsPageProps {
   userFormData: UserFormData; // Collected answers from input 
-  onBack: () => void;         // 
+  onBack: () => void;         // Makes the page go back to the previous page when click the back buttom 
 }
 
 export function ResultsPage({ userFormData, onBack }: ResultsPageProps) {
