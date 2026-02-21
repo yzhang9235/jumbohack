@@ -6,9 +6,9 @@ import { Checkbox } from "./ui/checkbox";
 import { Slider } from "./ui/slider";
 import { ChevronDown, BookOpen, Lightbulb, Users, Sliders } from "lucide-react";
 import type { UserFormData } from "./types";
-import { COURSES } from "./classes";
-import { SKILLS_BY_CATEGORY } from "./skills";
-import { CLUBS_BY_CATEGORY } from "./clubs";
+import { COURSES } from "./data/classes";
+import { SKILLS_BY_CATEGORY } from "./data/skills";
+import { CLUBS_BY_CATEGORY } from "./data/clubs";
 
 interface InputFormProps {
   onSubmit: (data: UserFormData) => void;
@@ -16,11 +16,15 @@ interface InputFormProps {
 
 export function InputForm({ onSubmit }: InputFormProps) {
   const [selectedCourses, setSelectedCourses] = useState<string[]>([]);
+  const [courseSearch, setCourseSearch] = useState("");
+
   const [skills, setSkills] = useState<{ name: string; level: string }[]>([]);
   const [selectedSkillForLevel, setSelectedSkillForLevel] = useState("");
   const [skillCategory, setSkillCategory] = useState(Object.keys(SKILLS_BY_CATEGORY)[0]);
+
   const [selectedClubs, setSelectedClubs] = useState<string[]>([]);
   const [clubCategory, setClubCategory] = useState(Object.keys(CLUBS_BY_CATEGORY)[0]);
+
   const [teamVsIndependent, setTeamVsIndependent] = useState([50]);
   const [analyticalVsCreative, setAnalyticalVsCreative] = useState([50]);
   const [structuredVsFlexible, setStructuredVsFlexible] = useState([50]);
@@ -28,6 +32,10 @@ export function InputForm({ onSubmit }: InputFormProps) {
   const [showCourseDropdown, setShowCourseDropdown] = useState(false);
   const [showSkillDropdown, setShowSkillDropdown] = useState(false);
   const [showClubDropdown, setShowClubDropdown] = useState(false);
+
+  const filteredCourses = COURSES.filter((course) =>
+    course.toLowerCase().includes(courseSearch.toLowerCase())
+  );
 
   const toggleCourse = (course: string) => {
     setSelectedCourses((prev) =>
@@ -81,10 +89,10 @@ export function InputForm({ onSubmit }: InputFormProps) {
         {/* Header */}
         <div className="text-center mb-12">
           <div className="text-5xl mb-4 opacity-60">🐘</div>
-          <h1 className="text-4xl mb-3 text-slate-700">
-            Translate Your Courses Into Career Direction
+          <h1 className="text-5xl mb-3 text-slate-700">
+            From Class to Career
           </h1>
-          <p className="text-slate-500 text-lg">Built for Tufts students</p>
+          <p className="text-slate-500 text-3xl">Built by Jumbos for Jumbos</p>
         </div>
 
         <div className="space-y-6">
@@ -95,6 +103,19 @@ export function InputForm({ onSubmit }: InputFormProps) {
                 <BookOpen className="w-5 h-5 text-blue-400" />
                 <Label className="text-lg text-slate-700">Courses Taken</Label>
               </div>
+
+              {/* Search bar (added) */}
+              <input
+                type="text"
+                placeholder="Search courses"
+                value={courseSearch}
+                onChange={(e) => {
+                  setCourseSearch(e.target.value);
+                  setShowCourseDropdown(true);
+                }}
+                className="w-full px-4 py-3 border border-slate-200 rounded-lg"
+              />
+
               <div className="relative">
                 <button
                   onClick={() => setShowCourseDropdown(!showCourseDropdown)}
@@ -107,9 +128,10 @@ export function InputForm({ onSubmit }: InputFormProps) {
                   </span>
                   <ChevronDown className="w-5 h-5 text-slate-400" />
                 </button>
+
                 {showCourseDropdown && (
                   <div className="absolute z-10 w-full mt-2 p-2 bg-white border border-slate-200 rounded-lg shadow-lg max-h-64 overflow-y-auto">
-                    {COURSES.map((course) => (
+                    {filteredCourses.map((course) => (
                       <div
                         key={course}
                         className="flex items-center space-x-3 p-2 hover:bg-blue-50/50 rounded-md cursor-pointer transition-colors"
@@ -122,6 +144,7 @@ export function InputForm({ onSubmit }: InputFormProps) {
                   </div>
                 )}
               </div>
+
               {selectedCourses.length > 0 && (
                 <div className="flex flex-wrap gap-2 mt-3">
                   {selectedCourses.map((course) => (
@@ -145,9 +168,8 @@ export function InputForm({ onSubmit }: InputFormProps) {
                 <Label className="text-lg text-slate-700">Skills & Level</Label>
               </div>
 
-              {/* Category Dropdown */}
               <div className="mb-2">
-                <Label>Skill Category</Label>
+                <Label className="mb-2">Skill Category</Label>
                 <select
                   value={skillCategory}
                   onChange={(e) => setSkillCategory(e.target.value)}
@@ -159,7 +181,6 @@ export function InputForm({ onSubmit }: InputFormProps) {
                 </select>
               </div>
 
-              {/* Skills Dropdown */}
               <div className="relative">
                 <button
                   onClick={() => setShowSkillDropdown(!showSkillDropdown)}
@@ -170,6 +191,7 @@ export function InputForm({ onSubmit }: InputFormProps) {
                   </span>
                   <ChevronDown className="w-5 h-5 text-slate-400" />
                 </button>
+
                 {showSkillDropdown && (
                   <div className="absolute z-10 w-full mt-2 p-2 bg-white border border-slate-200 rounded-lg shadow-lg max-h-64 overflow-y-auto">
                     {SKILLS_BY_CATEGORY[skillCategory].map((skill) => (
@@ -188,7 +210,6 @@ export function InputForm({ onSubmit }: InputFormProps) {
                 )}
               </div>
 
-              {/* Skill Level Selection */}
               {selectedSkillForLevel && (
                 <div className="p-4 bg-amber-50/50 rounded-lg border border-amber-200/50">
                   <p className="text-sm text-slate-600 mb-3">
@@ -209,7 +230,6 @@ export function InputForm({ onSubmit }: InputFormProps) {
                 </div>
               )}
 
-              {/* Selected Skills */}
               {skills.length > 0 && (
                 <div className="space-y-2 mt-3">
                   {skills.map((skill) => (
@@ -235,7 +255,7 @@ export function InputForm({ onSubmit }: InputFormProps) {
           </Card>
 
           {/* Clubs Section */}
-          <Card className="p-6 shadow-sm hover:shadow-md transition-shadow bg-white rounded-xl border border-slate-200/60">
+          <Card className="p-6 shadow-sm hover:shadow-md transition-shadow bg-white rounded-xl border border-slate-200/60 overflow-visible">
             <div className="space-y-4">
               <div className="flex items-center gap-2 mb-1">
                 <Users className="w-5 h-5 text-slate-400" />
@@ -245,9 +265,8 @@ export function InputForm({ onSubmit }: InputFormProps) {
                 </div>
               </div>
 
-              {/* Category Dropdown */}
               <div className="mb-2">
-                <Label>Club Category</Label>
+                <Label className="mb-2">Club Category</Label>
                 <select
                   value={clubCategory}
                   onChange={(e) => setClubCategory(e.target.value)}
@@ -259,7 +278,6 @@ export function InputForm({ onSubmit }: InputFormProps) {
                 </select>
               </div>
 
-              {/* Clubs Dropdown */}
               <div className="relative">
                 <button
                   onClick={() => setShowClubDropdown(!showClubDropdown)}
@@ -272,6 +290,7 @@ export function InputForm({ onSubmit }: InputFormProps) {
                   </span>
                   <ChevronDown className="w-5 h-5 text-slate-400" />
                 </button>
+
                 {showClubDropdown && (
                   <div className="absolute z-10 w-full mt-2 p-2 bg-white border border-slate-200 rounded-lg shadow-lg max-h-64 overflow-y-auto">
                     {CLUBS_BY_CATEGORY[clubCategory].map((club) => (
@@ -311,7 +330,6 @@ export function InputForm({ onSubmit }: InputFormProps) {
                 <Label className="text-lg text-slate-700">Work Preferences</Label>
               </div>
 
-              {/* Sliders */}
               {[
                 { label1: "Independent", label2: "Team-oriented", value: teamVsIndependent, setValue: setTeamVsIndependent },
                 { label1: "Analytical", label2: "Creative", value: analyticalVsCreative, setValue: setAnalyticalVsCreative },

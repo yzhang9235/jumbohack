@@ -7,4 +7,4 @@ export interface UserFormData {
       analyticalVsCreative: number;
       structuredVsFlexible: number;
     };
-  }
+}

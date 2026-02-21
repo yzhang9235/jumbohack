@@ -22,7 +22,7 @@ export const COURSES = [
     "AMER 94: Special Topics - Intro to Africana Studies",
     "AMER 193: Independent Study",
     "AMER 194: Special Topics - Histories of Race, Contagion",
-    "ANTH 20: Global Cities",
+    "ANTH 20: Global Cities",   
     "ANTH 26: Anthropology of Socialism and Postsocialism",
     "ANTH 28: The Anthropology of Capitalism",
     "ANTH 44: Primate Social Behavior",
