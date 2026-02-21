@@ -1,73 +1,82 @@
-# React + TypeScript + Vite
+# Course2Career
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Our Team:
+- Ava Reijmers – UI/UX Design (Figma), Frontend Development, Product Vision
+- Elaine Zhang – Original Idea, Product Direction, Deployment
+- Tiffany Huang – Translated Figma React + Tailwind to VS Code Implementation
+- Subhangi Pal – Course Data Structuring + Searching Feature
 
-Currently, two official plugins are available:
+## Description
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Finding internships can feel overwhelming — especially when you're unsure how your classes, clubs, and skills translate into real-world career opportunities.
 
-## React Compiler
+Course2Career is a web platform built specifically for Tufts students to bridge the gap between academic coursework and internships. As a team, we aimed to:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Reduce uncertainty in the internship search process**
+- **Translate coursework and extracurriculars into actionable career insights**
+- **Provide personalized, explainable career recommendations**
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+### How It Works
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+Students input:
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+1. **Courses Taken**  
+2. **Skills & Proficiency Levels (Beginner / Intermediate / Advanced)**  
+3. **Clubs & Extracurricular Involvement**  
+4. **Work Style Preferences (Team vs Independent, Analytical vs Creative, Structured vs Flexible)**  
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+The platform then:
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+- Generates a personalized list of internship matches  
+- Calculates a match score for each role  
+- Explains *why* the role aligns with the student’s background  
+- Identifies skill gaps  
+- Suggests recommended courses, clubs, and skills to strengthen candidacy  
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+Instead of generic advice, students receive tailored and actionable next steps.
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
+
+### Core Features
+
+1. **Dynamic Input Form**
+   - Searchable course selection
+   - Categorized skill selection with level assignment
+   - Club selection by category
+   - Interactive preference sliders
+   - State-managed form validation
+
+2. **Personalized Results Page**
+   - Top 3 career matches
+   - Match percentage visualization
+   - “Why This Matches You” explanations
+   - Expandable skill gap analysis
+   - Suggested next steps (courses, clubs, skills)
+
+---
+
+## Acknowledgements  
+- ChatGPT – Used for brainstorming, debugging, and structuring logic  
+- Claude – Used for ideation and refinement  
+- React – Frontend framework  
+- Tailwind CSS – Styling and layout  
+- Figma Make – Initial design generation  
+
+---
+
+## Reflection  
+
+### What We Learned  
+This was our first hackathon, and we learned how quickly ideas need to move from concept to implementation. We gained hands-on experience integrating Figma designs into a structured React application, managing complex component state, and collaborating efficiently under time constraints.
+
+### Motivation & Future Plans  
+We chose this project because we’ve personally experienced the stress of trying to connect coursework to internships. In the future, we would love to:
+- Integrate real internship APIs (Handshake, LinkedIn)
+- Add resume upload and parsing
+- Expand beyond Tufts to other universities
+- Improve the recommendation engine with machine learning
+
+### Challenges & How We Overcame Them  
+Our biggest hurdle was transitioning from Figma’s generated design into an editable, scalable React project. We restructured components, refined state management, and divided responsibilities strategically to turn a static design into a fully interactive platform.
