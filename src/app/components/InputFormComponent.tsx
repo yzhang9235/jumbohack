@@ -15,60 +15,127 @@ interface InputFormProps {
 }
 
 export function InputForm({ onSubmit }: InputFormProps) {
+
+  // ========================
+  // Courses State
+  // ========================
+
+  // List of selected courses
   const [selectedCourses, setSelectedCourses] = useState<string[]>([]);
+
+  // Search text for filtering courses
   const [courseSearch, setCourseSearch] = useState("");
 
+  // ========================
+  // Skills State
+  // ========================
+
+  // Selected skills with levels (Beginner/Intermediate/Advanced)
   const [skills, setSkills] = useState<{ name: string; level: string }[]>([]);
+
+  // Temporarily stores which skill is waiting for level selection
   const [selectedSkillForLevel, setSelectedSkillForLevel] = useState("");
+
+  // Currently selected skill category (Tech, Data, etc.)
   const [skillCategory, setSkillCategory] = useState(Object.keys(SKILLS_BY_CATEGORY)[0]);
 
+  // ========================
+  // Clubs State
+  // ========================
+
+  // Selected clubs
   const [selectedClubs, setSelectedClubs] = useState<string[]>([]);
+
+  // Currently selected club category
   const [clubCategory, setClubCategory] = useState(Object.keys(CLUBS_BY_CATEGORY)[0]);
+
+  // ========================
+  // Work Preferences (Sliders)
+  // ========================
 
   const [teamVsIndependent, setTeamVsIndependent] = useState([50]);
   const [analyticalVsCreative, setAnalyticalVsCreative] = useState([50]);
   const [structuredVsFlexible, setStructuredVsFlexible] = useState([50]);
 
+  // ========================
+  // Dropdown Visibility Controls
+  // ========================
+
   const [showCourseDropdown, setShowCourseDropdown] = useState(false);
   const [showSkillDropdown, setShowSkillDropdown] = useState(false);
   const [showClubDropdown, setShowClubDropdown] = useState(false);
+
+  // ========================
+  // Filter courses based on search input
+  // ========================
 
   const filteredCourses = COURSES.filter((course) =>
     course.toLowerCase().includes(courseSearch.toLowerCase())
   );
 
+  // ========================
+  // Toggle course selection
+  // ========================
+
   const toggleCourse = (course: string) => {
     setSelectedCourses((prev) =>
-      prev.includes(course) ? prev.filter((c) => c !== course) : [...prev, course]
+      prev.includes(course)
+        ? prev.filter((c) => c !== course) // remove if already selected
+        : [...prev, course] // add if not selected
     );
   };
 
+  // ========================
+  // Skill selection logic
+  // ========================
+
+  // When user clicks a skill → wait for level selection
   const addSkill = (skillName: string) => {
     if (!skills.find((s) => s.name === skillName)) {
       setSelectedSkillForLevel(skillName);
     }
   };
 
+  // Assign level to a skill
   const setSkillLevel = (skillName: string, level: string) => {
     setSkills((prev) => {
       const existing = prev.find((s) => s.name === skillName);
+
       if (existing) {
-        return prev.map((s) => (s.name === skillName ? { ...s, level } : s));
+        // Update level if skill already exists
+        return prev.map((s) =>
+          s.name === skillName ? { ...s, level } : s
+        );
       }
+
+      // Add new skill with level
       return [...prev, { name: skillName, level }];
     });
+
+    // Clear pending skill selection
     setSelectedSkillForLevel("");
   };
 
+  // Remove a skill
   const removeSkill = (skillName: string) => {
     setSkills((prev) => prev.filter((s) => s.name !== skillName));
   };
 
+  // ========================
+  // Toggle club selection
+  // ========================
+
   const toggleClub = (club: string) => {
     setSelectedClubs((prev) =>
-      prev.includes(club) ? prev.filter((c) => c !== club) : [...prev, club]
+      prev.includes(club)
+        ? prev.filter((c) => c !== club)
+        : [...prev, club]
     );
   };
+
+  // ========================
+  // Submit form → send data to parent
+  // ========================
 
   const handleSubmit = () => {
     onSubmit({
@@ -90,7 +157,7 @@ export function InputForm({ onSubmit }: InputFormProps) {
         <div className="text-center mb-12">
           <div className="text-5xl mb-4 opacity-60">🐘</div>
           <h1 className="text-5xl mb-3 text-slate-700">
-            From Class to Career
+            From Courses to a Career
           </h1>
           <p className="text-slate-500 text-3xl">Built by Jumbos for Jumbos</p>
         </div>

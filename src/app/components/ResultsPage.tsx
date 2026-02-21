@@ -1,16 +1,22 @@
-// src/app/components/ResultsPage.tsx
+//
 import { useState } from "react";
+
+// Connect with UI components 
 import { Card } from "./ui/card";
 import { Button } from "./ui/button";
 import { Progress } from "./ui/progress";
+
+// Showing different icons
 import { ChevronDown, ChevronUp, ArrowLeft, Target, Lightbulb } from "lucide-react";
 
+// Import the different files in the folder
 import type { UserFormData } from "./types";
 import { generateCareerMatches } from "./roles";
 
+// Properties expected by ResultsPage 
 interface ResultsPageProps {
-  userFormData: UserFormData;
-  onBack: () => void;
+  userFormData: UserFormData; // Collected answers from input 
+  onBack: () => void;         // 
 }
 
 export function ResultsPage({ userFormData, onBack }: ResultsPageProps) {
