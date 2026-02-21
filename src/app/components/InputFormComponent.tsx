@@ -6,65 +6,28 @@ import { Checkbox } from "./ui/checkbox";
 import { Slider } from "./ui/slider";
 import { ChevronDown, BookOpen, Lightbulb, Users, Sliders } from "lucide-react";
 import type { UserFormData } from "./types";
+import { COURSES } from "./classes";
+import { SKILLS_BY_CATEGORY } from "./skills";
+import { CLUBS_BY_CATEGORY } from "./clubs";
 
 interface InputFormProps {
-  onSubmit: (data: UserFormData ) => void;
+  onSubmit: (data: UserFormData) => void;
 }
-
-const COURSES = [
-  "COMP 15: Data Structures",
-  "COMP 40: Machine Structure",
-  "COMP 126: Practical Software Engineering",
-  "ECON 1: Intro to Microeconomics",
-  "ECON 2: Intro to Macroeconomics",
-  "MATH 42: Calculus II",
-  "PSYCH 1: Introduction to Psychology",
-  "BIO 13: Cells and Organisms",
-  "CHEM 1: General Chemistry",
-  "ENG 1: Writing Seminar",
-  "PHIL 1: Introduction to Philosophy",
-  "SOC 1: Introduction to Sociology",
-  
-];
-
-const SKILLS = [
-  "Python Programming",
-  "Data Analysis",
-  "Public Speaking",
-  "Project Management",
-  "UI/UX Design",
-  "Statistical Modeling",
-  "Research Methods",
-  "Leadership",
-  "Marketing",
-  "Financial Analysis",
-];
-
-const CLUBS = [
-  "Tufts Consulting Collective",
-  "Tufts Computer Science Society",
-  "Student Government",
-  "Entrepreneurship Society",
-  "Data Science Club",
-  "Marketing Club",
-  "Investment Club",
-  "Debate Team",
-  "Volunteer Organization",
-  "Arts Society",
-];
 
 export function InputForm({ onSubmit }: InputFormProps) {
   const [selectedCourses, setSelectedCourses] = useState<string[]>([]);
   const [skills, setSkills] = useState<{ name: string; level: string }[]>([]);
+  const [selectedSkillForLevel, setSelectedSkillForLevel] = useState("");
+  const [skillCategory, setSkillCategory] = useState(Object.keys(SKILLS_BY_CATEGORY)[0]);
   const [selectedClubs, setSelectedClubs] = useState<string[]>([]);
+  const [clubCategory, setClubCategory] = useState(Object.keys(CLUBS_BY_CATEGORY)[0]);
   const [teamVsIndependent, setTeamVsIndependent] = useState([50]);
   const [analyticalVsCreative, setAnalyticalVsCreative] = useState([50]);
   const [structuredVsFlexible, setStructuredVsFlexible] = useState([50]);
-  
+
   const [showCourseDropdown, setShowCourseDropdown] = useState(false);
   const [showSkillDropdown, setShowSkillDropdown] = useState(false);
   const [showClubDropdown, setShowClubDropdown] = useState(false);
-  const [selectedSkillForLevel, setSelectedSkillForLevel] = useState("");
 
   const toggleCourse = (course: string) => {
     setSelectedCourses((prev) =>
@@ -124,7 +87,6 @@ export function InputForm({ onSubmit }: InputFormProps) {
           <p className="text-slate-500 text-lg">Built for Tufts students</p>
         </div>
 
-        {/* Form Cards */}
         <div className="space-y-6">
           {/* Courses Section */}
           <Card className="p-6 shadow-sm hover:shadow-md transition-shadow bg-white rounded-xl border border-slate-200/60">
@@ -182,6 +144,22 @@ export function InputForm({ onSubmit }: InputFormProps) {
                 <Lightbulb className="w-5 h-5 text-amber-500" />
                 <Label className="text-lg text-slate-700">Skills & Level</Label>
               </div>
+
+              {/* Category Dropdown */}
+              <div className="mb-2">
+                <Label>Skill Category</Label>
+                <select
+                  value={skillCategory}
+                  onChange={(e) => setSkillCategory(e.target.value)}
+                  className="w-full p-2 border border-slate-200 rounded-lg"
+                >
+                  {Object.keys(SKILLS_BY_CATEGORY).map((cat) => (
+                    <option key={cat} value={cat}>{cat}</option>
+                  ))}
+                </select>
+              </div>
+
+              {/* Skills Dropdown */}
               <div className="relative">
                 <button
                   onClick={() => setShowSkillDropdown(!showSkillDropdown)}
@@ -194,7 +172,7 @@ export function InputForm({ onSubmit }: InputFormProps) {
                 </button>
                 {showSkillDropdown && (
                   <div className="absolute z-10 w-full mt-2 p-2 bg-white border border-slate-200 rounded-lg shadow-lg max-h-64 overflow-y-auto">
-                    {SKILLS.map((skill) => (
+                    {SKILLS_BY_CATEGORY[skillCategory].map((skill) => (
                       <div
                         key={skill}
                         className="p-2 hover:bg-amber-50/50 rounded-md cursor-pointer text-sm text-slate-600 transition-colors"
@@ -266,6 +244,22 @@ export function InputForm({ onSubmit }: InputFormProps) {
                   <p className="text-sm text-slate-400 mt-0.5">Optional</p>
                 </div>
               </div>
+
+              {/* Category Dropdown */}
+              <div className="mb-2">
+                <Label>Club Category</Label>
+                <select
+                  value={clubCategory}
+                  onChange={(e) => setClubCategory(e.target.value)}
+                  className="w-full p-2 border border-slate-200 rounded-lg"
+                >
+                  {Object.keys(CLUBS_BY_CATEGORY).map((cat) => (
+                    <option key={cat} value={cat}>{cat}</option>
+                  ))}
+                </select>
+              </div>
+
+              {/* Clubs Dropdown */}
               <div className="relative">
                 <button
                   onClick={() => setShowClubDropdown(!showClubDropdown)}
@@ -280,7 +274,7 @@ export function InputForm({ onSubmit }: InputFormProps) {
                 </button>
                 {showClubDropdown && (
                   <div className="absolute z-10 w-full mt-2 p-2 bg-white border border-slate-200 rounded-lg shadow-lg max-h-64 overflow-y-auto">
-                    {CLUBS.map((club) => (
+                    {CLUBS_BY_CATEGORY[clubCategory].map((club) => (
                       <div
                         key={club}
                         className="flex items-center space-x-3 p-2 hover:bg-slate-50 rounded-md cursor-pointer transition-colors"
@@ -293,6 +287,7 @@ export function InputForm({ onSubmit }: InputFormProps) {
                   </div>
                 )}
               </div>
+
               {selectedClubs.length > 0 && (
                 <div className="flex flex-wrap gap-2 mt-3">
                   {selectedClubs.map((club) => (
@@ -316,50 +311,26 @@ export function InputForm({ onSubmit }: InputFormProps) {
                 <Label className="text-lg text-slate-700">Work Preferences</Label>
               </div>
 
-              {/* Team vs Independent */}
-              <div className="space-y-3">
-                <div className="flex justify-between text-sm">
-                  <span className="text-slate-500">Independent</span>
-                  <span className="text-slate-500">Team-oriented</span>
+              {/* Sliders */}
+              {[
+                { label1: "Independent", label2: "Team-oriented", value: teamVsIndependent, setValue: setTeamVsIndependent },
+                { label1: "Analytical", label2: "Creative", value: analyticalVsCreative, setValue: setAnalyticalVsCreative },
+                { label1: "Structured", label2: "Flexible", value: structuredVsFlexible, setValue: setStructuredVsFlexible },
+              ].map((slider, idx) => (
+                <div className="space-y-3" key={idx}>
+                  <div className="flex justify-between text-sm">
+                    <span className="text-slate-500">{slider.label1}</span>
+                    <span className="text-slate-500">{slider.label2}</span>
+                  </div>
+                  <Slider
+                    value={slider.value}
+                    onValueChange={slider.setValue}
+                    max={100}
+                    step={1}
+                    className="w-full"
+                  />
                 </div>
-                <Slider
-                  value={teamVsIndependent}
-                  onValueChange={setTeamVsIndependent}
-                  max={100}
-                  step={1}
-                  className="w-full"
-                />
-              </div>
-
-              {/* Analytical vs Creative */}
-              <div className="space-y-3">
-                <div className="flex justify-between text-sm">
-                  <span className="text-slate-500">Analytical</span>
-                  <span className="text-slate-500">Creative</span>
-                </div>
-                <Slider
-                  value={analyticalVsCreative}
-                  onValueChange={setAnalyticalVsCreative}
-                  max={100}
-                  step={1}
-                  className="w-full"
-                />
-              </div>
-
-              {/* Structured vs Flexible */}
-              <div className="space-y-3">
-                <div className="flex justify-between text-sm">
-                  <span className="text-slate-500">Structured</span>
-                  <span className="text-slate-500">Flexible</span>
-                </div>
-                <Slider
-                  value={structuredVsFlexible}
-                  onValueChange={setStructuredVsFlexible}
-                  max={100}
-                  step={1}
-                  className="w-full"
-                />
-              </div>
+              ))}
             </div>
           </Card>
 
