@@ -58,11 +58,12 @@ Instead of generic advice, students receive tailored and actionable next steps.
 ---
 
 ## Acknowledgements  
-- ChatGPT – Used for brainstorming, debugging, and structuring logic  
-- Claude – Used for ideation and refinement  
-- React – Frontend framework  
-- Tailwind CSS – Styling and layout  
-- Figma Make – Initial design generation  
+- GPT-5.2 – Brainstorming, debugging, and structuring logic  
+- Claude AI – Ideation and refinement
+- Figma Make – Initial design mockup  
+- React – UI framework  
+- Tailwind CSS – Styling and layout
+- Netlify - Deloyment
 
 ---
 
