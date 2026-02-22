@@ -1,0 +1,3351 @@
+[
+  {
+    "id": "software_engineer",
+    "title": "Software Engineer",
+    "description": "Designs, builds, and maintains software applications across the stack. Works with teams to ship reliable, scalable code.",
+    "skills01": {
+      "Java": 0.9,
+      "Python": 0.9,
+      "Problem Solving": 0.85,
+      "JavaScript": 0.7,
+      "React": 0.6,
+      "APIs / REST / GraphQL": 0.65,
+      "SQL": 0.55,
+      "DevOps / CI-CD / Docker / Kubernetes": 0.5,
+      "Version Control (Git)": 0.75
+    },
+    "courses01": {
+      "CS 15": 0.9,
+      "CS 40": 0.8,
+      "CS 111": 0.85,
+      "CS 160": 0.75,
+      "CS 20": 0.6
+    },
+    "clubs01": {
+      "JumboCode": 0.9,
+      "Women In Computer Science (WICS)": 0.75,
+      "Robotics Club": 0.6,
+      "GNU/Linux User Group": 0.65,
+      "Computer Science Exchange": 0.7
+    },
+    "idealPreferences": {
+      "teamVsIndependent": 65,
+      "analyticalVsCreative": 40,
+      "structuredVsFlexible": 55
+    },
+    "scoringWeights": {
+      "skills": 0.55,
+      "courses": 0.22,
+      "clubs": 0.11,
+      "preferences": 0.12
+    }
+  },
+  {
+    "id": "frontend_engineer",
+    "title": "Frontend Engineer",
+    "description": "Builds user-facing web interfaces using modern JavaScript frameworks, focusing on performance, accessibility, and visual polish.",
+    "skills01": {
+      "JavaScript": 0.95,
+      "HTML/CSS": 0.9,
+      "React": 0.9,
+      "UI/UX Design": 0.65,
+      "APIs / REST / GraphQL": 0.6,
+      "TypeScript": 0.55,
+      "Prototyping": 0.5
+    },
+    "courses01": {
+      "CS 20": 0.95,
+      "CS 171": 0.7,
+      "DIG 144": 0.6
+    },
+    "clubs01": {
+      "Product Studio": 0.85,
+      "WIA Tufts": 0.7,
+      "JumboXR": 0.6,
+      "JumboCode": 0.75
+    },
+    "idealPreferences": {
+      "teamVsIndependent": 60,
+      "analyticalVsCreative": 60,
+      "structuredVsFlexible": 55
+    },
+    "scoringWeights": {
+      "skills": 0.55,
+      "courses": 0.22,
+      "clubs": 0.11,
+      "preferences": 0.12
+    }
+  },
+  {
+    "id": "backend_engineer",
+    "title": "Backend Engineer",
+    "description": "Develops server-side logic, databases, and APIs that power applications. Focuses on performance, security, and scalability.",
+    "skills01": {
+      "Python": 0.9,
+      "Java": 0.85,
+      "APIs / REST / GraphQL": 0.9,
+      "SQL": 0.75,
+      "NoSQL (MongoDB, Cassandra)": 0.65,
+      "Cloud Computing (AWS/Azure/GCP)": 0.6,
+      "DevOps / CI-CD / Docker / Kubernetes": 0.6
+    },
+    "courses01": {
+      "CS 111": 0.95,
+      "CS 110": 0.8,
+      "DATA 202": 0.65,
+      "CS 115": 0.7
+    },
+    "clubs01": {
+      "JumboCode": 0.9,
+      "GNU/Linux User Group": 0.8,
+      "Engineering Student Council (ESC)": 0.5
+    },
+    "idealPreferences": {
+      "teamVsIndependent": 65,
+      "analyticalVsCreative": 35,
+      "structuredVsFlexible": 45
+    },
+    "scoringWeights": {
+      "skills": 0.55,
+      "courses": 0.22,
+      "clubs": 0.11,
+      "preferences": 0.12
+    }
+  },
+  {
+    "id": "fullstack_engineer",
+    "title": "Full-Stack Engineer",
+    "description": "Fluent across the entire web stack — from database to UI. Builds and ships features end-to-end, often in fast-moving startup environments.",
+    "skills01": {
+      "JavaScript": 0.9,
+      "React": 0.85,
+      "APIs / REST / GraphQL": 0.85,
+      "SQL": 0.65,
+      "Cloud Computing (AWS/Azure/GCP)": 0.6,
+      "DevOps / CI-CD / Docker / Kubernetes": 0.55,
+      "Python": 0.6
+    },
+    "courses01": {
+      "CS 20": 0.9,
+      "CS 111": 0.8,
+      "DATA 202": 0.6
+    },
+    "clubs01": {
+      "JumboCode": 0.9,
+      "Product Studio": 0.75,
+      "Jumbo Ventures": 0.6
+    },
+    "idealPreferences": {
+      "teamVsIndependent": 65,
+      "analyticalVsCreative": 50,
+      "structuredVsFlexible": 55
+    },
+    "scoringWeights": {
+      "skills": 0.55,
+      "courses": 0.22,
+      "clubs": 0.11,
+      "preferences": 0.12
+    }
+  },
+  {
+    "id": "mobile_developer",
+    "title": "Mobile Developer",
+    "description": "Builds native and cross-platform apps for iOS and Android. Balances performance with great user experience on small screens.",
+    "skills01": {
+      "Mobile Development (iOS/Android/Flutter/React Native)": 0.95,
+      "JavaScript": 0.7,
+      "Problem Solving": 0.8,
+      "UI/UX Design": 0.65,
+      "APIs / REST / GraphQL": 0.65,
+      "React": 0.55
+    },
+    "courses01": {
+      "CS 20": 0.8,
+      "CS 15": 0.75
+    },
+    "clubs01": {
+      "Product Studio": 0.85,
+      "JumboXR": 0.65,
+      "JumboCode": 0.75
+    },
+    "idealPreferences": {
+      "analyticalVsCreative": 55,
+      "structuredVsFlexible": 60,
+      "teamVsIndependent": 60
+    },
+    "scoringWeights": {
+      "skills": 0.55,
+      "courses": 0.22,
+      "clubs": 0.11,
+      "preferences": 0.12
+    }
+  },
+  {
+    "id": "devops_engineer",
+    "title": "DevOps Engineer",
+    "description": "Automates deployment pipelines, manages cloud infrastructure, and bridges the gap between development and operations teams.",
+    "skills01": {
+      "DevOps / CI-CD / Docker / Kubernetes": 0.95,
+      "Cloud Computing (AWS/Azure/GCP)": 0.9,
+      "Network Administration": 0.75,
+      "Python": 0.65,
+      "Shell Scripting / Bash": 0.8,
+      "Cybersecurity / Penetration Testing": 0.5
+    },
+    "courses01": {
+      "CS 110": 0.9,
+      "CS 111": 0.85,
+      "CS 122": 0.7
+    },
+    "clubs01": {
+      "GNU/Linux User Group": 0.9,
+      "Engineering Student Council (ESC)": 0.55,
+      "Robotics Club": 0.5
+    },
+    "idealPreferences": {
+      "structuredVsFlexible": 35,
+      "teamVsIndependent": 60,
+      "analyticalVsCreative": 30
+    },
+    "scoringWeights": {
+      "skills": 0.55,
+      "courses": 0.22,
+      "clubs": 0.11,
+      "preferences": 0.12
+    }
+  },
+  {
+    "id": "cybersecurity_analyst",
+    "title": "Cybersecurity Analyst",
+    "description": "Monitors, detects, and responds to security threats. Conducts vulnerability assessments and protects organizational systems and data.",
+    "skills01": {
+      "Cybersecurity / Penetration Testing": 0.95,
+      "Network Administration": 0.85,
+      "Problem Solving": 0.8,
+      "Cloud Computing (AWS/Azure/GCP)": 0.6,
+      "Python": 0.55,
+      "Linux / Unix Administration": 0.65
+    },
+    "courses01": {
+      "CS 28": 0.9,
+      "CS 114": 0.9,
+      "CS 116": 0.85,
+      "CS 183": 0.7
+    },
+    "clubs01": {
+      "Women in Cybersecurity (WiCyS)": 0.95,
+      "GNU/Linux User Group": 0.75,
+      "AI Safety Student Association (TASSA)": 0.5
+    },
+    "idealPreferences": {
+      "analyticalVsCreative": 20,
+      "structuredVsFlexible": 30,
+      "teamVsIndependent": 55
+    },
+    "scoringWeights": {
+      "skills": 0.55,
+      "courses": 0.22,
+      "clubs": 0.11,
+      "preferences": 0.12
+    }
+  },
+  {
+    "id": "game_developer",
+    "title": "Game Developer",
+    "description": "Creates interactive game experiences using engines like Unity or Unreal. Combines programming skills with a strong sense for player experience.",
+    "skills01": {
+      "C++": 0.85,
+      "Problem Solving": 0.8,
+      "Collaboration": 0.75,
+      "UI/UX Design": 0.6,
+      "Animation / Motion Graphics": 0.55,
+      "JavaScript": 0.5
+    },
+    "courses01": {
+      "CS 23": 0.95,
+      "CS 15": 0.75,
+      "DIG 150": 0.65
+    },
+    "clubs01": {
+      "Gaming Hub": 0.9,
+      "JumboXR": 0.7,
+      "ACM SIGGRAPH Student Chapter": 0.65
+    },
+    "idealPreferences": {
+      "analyticalVsCreative": 70,
+      "teamVsIndependent": 60,
+      "structuredVsFlexible": 65
+    },
+    "scoringWeights": {
+      "skills": 0.55,
+      "courses": 0.22,
+      "clubs": 0.11,
+      "preferences": 0.12
+    }
+  },
+  {
+    "id": "ar_vr_developer",
+    "title": "AR/VR Developer",
+    "description": "Builds immersive experiences for augmented and virtual reality platforms. Merges spatial computing, 3D design, and interaction design.",
+    "skills01": {
+      "JavaScript": 0.75,
+      "Problem Solving": 0.8,
+      "Prototyping": 0.85,
+      "UI/UX Design": 0.7,
+      "3D Modeling (Blender, Maya, Cinema 4D)": 0.65,
+      "Animation / Motion Graphics": 0.6
+    },
+    "courses01": {
+      "DIG 150": 0.95,
+      "CS 132": 0.75,
+      "CS 171": 0.65
+    },
+    "clubs01": {
+      "JumboXR": 0.95,
+      "ACM SIGGRAPH Student Chapter": 0.75,
+      "Digital Fabrication Club": 0.6
+    },
+    "idealPreferences": {
+      "analyticalVsCreative": 75,
+      "structuredVsFlexible": 60,
+      "teamVsIndependent": 60
+    },
+    "scoringWeights": {
+      "skills": 0.55,
+      "courses": 0.22,
+      "clubs": 0.11,
+      "preferences": 0.12
+    }
+  },
+  {
+    "id": "data_scientist",
+    "title": "Data Scientist",
+    "description": "Extracts insights from large datasets using statistical modeling and machine learning. Turns messy data into decisions that drive strategy.",
+    "skills01": {
+      "Statistics": 0.9,
+      "Data Analysis": 0.9,
+      "SQL": 0.8,
+      "Machine Learning": 0.8,
+      "Python": 0.85,
+      "Data Visualization (Tableau, PowerBI, Matplotlib, Seaborn)": 0.7,
+      "Research Methods": 0.6,
+      "A/B Testing": 0.6
+    },
+    "courses01": {
+      "DATA 100": 0.85,
+      "DATA 202": 0.8,
+      "MATH 165": 0.9,
+      "MATH 166": 0.85,
+      "CS 135": 0.75
+    },
+    "clubs01": {
+      "Baseball Analytics (BAT)": 0.8,
+      "National Student Data Corps Chapter": 0.85,
+      "Economics Society (TES)": 0.6,
+      "Investment Club": 0.5
+    },
+    "idealPreferences": {
+      "analyticalVsCreative": 35,
+      "structuredVsFlexible": 45,
+      "teamVsIndependent": 55
+    },
+    "scoringWeights": {
+      "skills": 0.55,
+      "courses": 0.22,
+      "clubs": 0.11,
+      "preferences": 0.12
+    }
+  },
+  {
+    "id": "data_analyst",
+    "title": "Data Analyst",
+    "description": "Interprets data to help organizations make better decisions. Builds dashboards, writes reports, and communicates findings clearly to stakeholders.",
+    "skills01": {
+      "Excel / Google Sheets": 0.9,
+      "Data Analysis": 0.9,
+      "Data Visualization (Tableau, PowerBI, Matplotlib, Seaborn)": 0.85,
+      "SQL": 0.75,
+      "Hypothesis Testing": 0.6,
+      "A/B Testing": 0.55,
+      "Communication": 0.7
+    },
+    "courses01": {
+      "DATA 100": 0.9,
+      "DATA 220": 0.8,
+      "EC 13": 0.75
+    },
+    "clubs01": {
+      "Consulting Collective": 0.7,
+      "Investment Club": 0.65,
+      "Economics Society (TES)": 0.7,
+      "National Student Data Corps Chapter": 0.85
+    },
+    "idealPreferences": {
+      "structuredVsFlexible": 50,
+      "analyticalVsCreative": 30,
+      "teamVsIndependent": 55
+    },
+    "scoringWeights": {
+      "skills": 0.55,
+      "courses": 0.22,
+      "clubs": 0.11,
+      "preferences": 0.12
+    }
+  },
+  {
+    "id": "machine_learning_engineer",
+    "title": "Machine Learning Engineer",
+    "description": "Designs and deploys ML models at scale. Bridges the gap between research and production systems.",
+    "skills01": {
+      "Python": 0.95,
+      "Machine Learning": 0.95,
+      "Data Wrangling": 0.8,
+      "Deep Learning": 0.8,
+      "Cloud Computing (AWS/Azure/GCP)": 0.65,
+      "Statistics": 0.7,
+      "DevOps / CI-CD / Docker / Kubernetes": 0.55
+    },
+    "courses01": {
+      "CS 135": 0.95,
+      "CS 137": 0.9,
+      "CS 131": 0.8,
+      "DATA 297": 0.85,
+      "MATH 169": 0.75
+    },
+    "clubs01": {
+      "Artificial Intelligence Society": 0.95,
+      "AI Safety Student Association (TASSA)": 0.8,
+      "Robotics Club": 0.6
+    },
+    "idealPreferences": {
+      "analyticalVsCreative": 45,
+      "structuredVsFlexible": 50,
+      "teamVsIndependent": 55
+    },
+    "scoringWeights": {
+      "skills": 0.55,
+      "courses": 0.22,
+      "clubs": 0.11,
+      "preferences": 0.12
+    }
+  },
+  {
+    "id": "quantitative_analyst",
+    "title": "Quantitative Analyst",
+    "description": "Applies advanced mathematics and statistics to financial modeling, risk assessment, and algorithmic trading strategies.",
+    "skills01": {
+      "Statistics": 0.95,
+      "Statistical Modeling": 0.95,
+      "Python": 0.85,
+      "Financial Analysis": 0.75,
+      "Machine Learning": 0.65,
+      "R": 0.6,
+      "MATLAB": 0.55
+    },
+    "courses01": {
+      "MATH 165": 0.95,
+      "MATH 166": 0.9,
+      "EC 24": 0.75,
+      "EC 150": 0.8,
+      "EC 159": 0.85
+    },
+    "clubs01": {
+      "Investment Club": 0.9,
+      "Financial Group": 0.85,
+      "Economics Society (TES)": 0.7
+    },
+    "idealPreferences": {
+      "analyticalVsCreative": 20,
+      "structuredVsFlexible": 30,
+      "teamVsIndependent": 40
+    },
+    "scoringWeights": {
+      "skills": 0.55,
+      "courses": 0.22,
+      "clubs": 0.11,
+      "preferences": 0.12
+    }
+  },
+  {
+    "id": "product_manager",
+    "title": "Product Manager",
+    "description": "Leads cross-functional teams to define, build, and launch products. Balances user needs, business goals, and technical constraints.",
+    "skills01": {
+      "Product Management": 0.95,
+      "Communication": 0.9,
+      "Market Research": 0.8,
+      "Project Management": 0.75,
+      "Agile / Scrum / Kanban": 0.7,
+      "Data Analysis": 0.65,
+      "Presentation Skills": 0.7,
+      "Stakeholder Management": 0.65
+    },
+    "courses01": {
+      "CS 20": 0.7,
+      "ENT 101": 0.85,
+      "ENT 103": 0.75,
+      "EC 50": 0.65,
+      "CS 171": 0.6
+    },
+    "clubs01": {
+      "Women in Product (WiP)": 0.95,
+      "Product Studio": 0.9,
+      "Jumbo Ventures": 0.75,
+      "Consulting Collective": 0.65
+    },
+    "idealPreferences": {
+      "teamVsIndependent": 75,
+      "analyticalVsCreative": 60,
+      "structuredVsFlexible": 55
+    },
+    "scoringWeights": {
+      "skills": 0.55,
+      "courses": 0.22,
+      "clubs": 0.11,
+      "preferences": 0.12
+    }
+  },
+  {
+    "id": "product_designer",
+    "title": "Product Designer",
+    "description": "Shapes the look, feel, and usability of digital products. Conducts user research and creates wireframes, prototypes, and polished visual designs.",
+    "skills01": {
+      "UI/UX Design": 0.95,
+      "Wireframing": 0.95,
+      "Prototyping": 0.9,
+      "Graphic Design (Photoshop, Illustrator, Figma, Sketch)": 0.75,
+      "Presentation Design": 0.6,
+      "Storytelling": 0.55,
+      "User Research": 0.7
+    },
+    "courses01": {
+      "CS 171": 0.9,
+      "DIG 5": 0.75,
+      "GRA 114": 0.7
+    },
+    "clubs01": {
+      "WIA Tufts": 0.9,
+      "Product Studio": 0.85,
+      "Art Galleries Student Programming Committee (TUAG SPC)": 0.55
+    },
+    "idealPreferences": {
+      "analyticalVsCreative": 80,
+      "structuredVsFlexible": 60,
+      "teamVsIndependent": 60
+    },
+    "scoringWeights": {
+      "skills": 0.55,
+      "courses": 0.22,
+      "clubs": 0.11,
+      "preferences": 0.12
+    }
+  },
+  {
+    "id": "ux_researcher",
+    "title": "UX Researcher",
+    "description": "Studies how users interact with products through interviews, usability tests, and surveys. Translates behavioral insights into actionable design recommendations.",
+    "skills01": {
+      "Research Methods": 0.95,
+      "Experiment Design": 0.85,
+      "Communication": 0.8,
+      "UI/UX Design": 0.65,
+      "A/B Testing": 0.6,
+      "Hypothesis Testing": 0.6,
+      "Survey Design": 0.7
+    },
+    "courses01": {
+      "CS 171": 0.85,
+      "CS 179": 0.9,
+      "PSY 32": 0.8,
+      "SOC 102": 0.7
+    },
+    "clubs01": {
+      "ResearcHERS": 0.85,
+      "Tisch College of Civic Life": 0.55
+    },
+    "idealPreferences": {
+      "analyticalVsCreative": 65,
+      "teamVsIndependent": 60,
+      "structuredVsFlexible": 55
+    },
+    "scoringWeights": {
+      "skills": 0.55,
+      "courses": 0.22,
+      "clubs": 0.11,
+      "preferences": 0.12
+    }
+  },
+  {
+    "id": "management_consultant",
+    "title": "Management Consultant",
+    "description": "Helps organizations solve complex strategic, operational, and financial problems. Delivers recommendations through data analysis and structured frameworks.",
+    "skills01": {
+      "Problem Solving": 0.95,
+      "Communication": 0.9,
+      "Presentation Skills": 0.9,
+      "Business Strategy": 0.8,
+      "Market Research": 0.7,
+      "Excel / Google Sheets": 0.7,
+      "Critical Thinking": 0.85,
+      "Consulting": 0.9
+    },
+    "courses01": {
+      "EC 11": 0.8,
+      "EC 15": 0.75,
+      "ENT 101": 0.7,
+      "EC 175": 0.8
+    },
+    "clubs01": {
+      "180 Degrees Consulting": 0.95,
+      "Consulting Collective": 0.9,
+      "TAMID at Tufts": 0.75,
+      "Lantern Think Tank": 0.7
+    },
+    "idealPreferences": {
+      "teamVsIndependent": 75,
+      "analyticalVsCreative": 45,
+      "structuredVsFlexible": 50
+    },
+    "scoringWeights": {
+      "skills": 0.55,
+      "courses": 0.22,
+      "clubs": 0.11,
+      "preferences": 0.12
+    }
+  },
+  {
+    "id": "investment_analyst",
+    "title": "Investment Analyst",
+    "description": "Researches companies and markets to guide investment decisions. Builds financial models and presents recommendations to portfolio managers or clients.",
+    "skills01": {
+      "Financial Analysis": 0.95,
+      "Excel / Google Sheets": 0.9,
+      "Critical Thinking": 0.85,
+      "Statistics": 0.7,
+      "Competitive Analysis": 0.75,
+      "Business Strategy": 0.65,
+      "Financial Modeling": 0.85
+    },
+    "courses01": {
+      "EC 50": 0.9,
+      "EC 150": 0.9,
+      "EC 155": 0.8,
+      "EC 159": 0.75
+    },
+    "clubs01": {
+      "Investment Club": 0.95,
+      "Financial Group": 0.9,
+      "TAMID at Tufts": 0.7
+    },
+    "idealPreferences": {
+      "analyticalVsCreative": 25,
+      "structuredVsFlexible": 40,
+      "teamVsIndependent": 55
+    },
+    "scoringWeights": {
+      "skills": 0.55,
+      "courses": 0.22,
+      "clubs": 0.11,
+      "preferences": 0.12
+    }
+  },
+  {
+    "id": "marketing_analyst",
+    "title": "Marketing Analyst",
+    "description": "Measures and interprets marketing campaign performance. Uses data to optimize channels, inform strategy, and justify spend.",
+    "skills01": {
+      "Analytics (Google Analytics)": 0.9,
+      "Data Analysis": 0.85,
+      "Marketing Strategy": 0.8,
+      "A/B Testing": 0.7,
+      "Data Visualization (Tableau, PowerBI, Matplotlib, Seaborn)": 0.65,
+      "SEO": 0.55
+    },
+    "courses01": {
+      "DATA 100": 0.75,
+      "ENT 13": 0.85,
+      "ENT 105": 0.8
+    },
+    "clubs01": {
+      "Her Campus Tufts": 0.8,
+      "Tufts Daily": 0.65
+    },
+    "idealPreferences": {
+      "structuredVsFlexible": 55,
+      "analyticalVsCreative": 45,
+      "teamVsIndependent": 65
+    },
+    "scoringWeights": {
+      "skills": 0.55,
+      "courses": 0.22,
+      "clubs": 0.11,
+      "preferences": 0.12
+    }
+  },
+  {
+    "id": "content_strategist",
+    "title": "Content Strategist",
+    "description": "Plans and oversees content creation across channels to serve brand goals. Combines editorial judgment, SEO knowledge, and audience insight.",
+    "skills01": {
+      "Content Writing / Copywriting": 0.9,
+      "Storytelling": 0.9,
+      "Communication": 0.85,
+      "Branding / Visual Identity": 0.65,
+      "SEO": 0.6,
+      "Marketing Strategy": 0.55
+    },
+    "courses01": {
+      "ENG 7": 0.8,
+      "FMS 32": 0.75,
+      "FMS 160": 0.8
+    },
+    "clubs01": {
+      "Tufts Daily": 0.9,
+      "Her Campus Tufts": 0.85,
+      "Observer": 0.7
+    },
+    "idealPreferences": {
+      "analyticalVsCreative": 80,
+      "teamVsIndependent": 60,
+      "structuredVsFlexible": 55
+    },
+    "scoringWeights": {
+      "skills": 0.55,
+      "courses": 0.22,
+      "clubs": 0.11,
+      "preferences": 0.12
+    }
+  },
+  {
+    "id": "social_media_manager",
+    "title": "Social Media Manager",
+    "description": "Manages brand presence across social platforms. Creates content calendars, drives engagement, and analyzes performance metrics.",
+    "skills01": {
+      "Social Media Content Creation": 0.95,
+      "Communication": 0.85,
+      "Marketing Strategy": 0.8,
+      "Analytics (Google Analytics)": 0.65,
+      "Content Writing / Copywriting": 0.7,
+      "Branding / Visual Identity": 0.6
+    },
+    "courses01": {
+      "ENT 13": 0.85,
+      "FMS 160": 0.75
+    },
+    "clubs01": {
+      "Her Campus Tufts": 0.95,
+      "Tufts Daily": 0.8,
+      "WMFO": 0.6
+    },
+    "idealPreferences": {
+      "structuredVsFlexible": 65,
+      "analyticalVsCreative": 75,
+      "teamVsIndependent": 65
+    },
+    "scoringWeights": {
+      "skills": 0.55,
+      "courses": 0.22,
+      "clubs": 0.11,
+      "preferences": 0.12
+    }
+  },
+  {
+    "id": "video_producer",
+    "title": "Video Producer",
+    "description": "Plans, shoots, and edits video content for brands, media companies, or independent projects. Manages the entire production pipeline.",
+    "skills01": {
+      "Video Editing (Premiere, Final Cut)": 0.95,
+      "Storytelling": 0.9,
+      "Project Management": 0.75,
+      "Animation / Motion Graphics": 0.6,
+      "Branding / Visual Identity": 0.55,
+      "Audio Editing / Sound Design": 0.6
+    },
+    "courses01": {
+      "FMS 10": 0.95,
+      "FMS 150": 0.9,
+      "MDIA 106": 0.8
+    },
+    "clubs01": {
+      "Tufts University Television (TUTV)": 0.95,
+      "WMFO": 0.65,
+      "Film Club": 0.8
+    },
+    "idealPreferences": {
+      "analyticalVsCreative": 85,
+      "teamVsIndependent": 65,
+      "structuredVsFlexible": 65
+    },
+    "scoringWeights": {
+      "skills": 0.55,
+      "courses": 0.22,
+      "clubs": 0.11,
+      "preferences": 0.12
+    }
+  },
+  {
+    "id": "graphic_designer",
+    "title": "Graphic Designer",
+    "description": "Creates visual assets for digital and print media — logos, marketing materials, brand systems, and editorial layouts.",
+    "skills01": {
+      "Graphic Design (Photoshop, Illustrator, Figma, Sketch)": 0.95,
+      "Branding / Visual Identity": 0.9,
+      "Presentation Design": 0.75,
+      "Typography": 0.7,
+      "Illustration": 0.6,
+      "Storytelling": 0.55
+    },
+    "courses01": {
+      "GRA 114": 0.95,
+      "GRA 132": 0.85,
+      "DIG 5": 0.7
+    },
+    "clubs01": {
+      "Art Galleries Student Programming Committee (TUAG SPC)": 0.75,
+      "Artists of Color Union": 0.65,
+      "Fiber Arts Club": 0.5
+    },
+    "idealPreferences": {
+      "analyticalVsCreative": 90,
+      "structuredVsFlexible": 65,
+      "teamVsIndependent": 45
+    },
+    "scoringWeights": {
+      "skills": 0.55,
+      "courses": 0.22,
+      "clubs": 0.11,
+      "preferences": 0.12
+    }
+  },
+  {
+    "id": "public_health_analyst",
+    "title": "Public Health Analyst",
+    "description": "Analyzes health data and policies to understand disease patterns and guide public health interventions at community or national scale.",
+    "skills01": {
+      "Research Methods": 0.9,
+      "Data Analysis": 0.85,
+      "Communication": 0.8,
+      "Statistics": 0.75,
+      "Data Visualization (Tableau, PowerBI, Matplotlib, Seaborn)": 0.6,
+      "Epidemiology": 0.7,
+      "Policy Analysis": 0.6
+    },
+    "courses01": {
+      "CH 131": 0.9,
+      "CEE 52": 0.8,
+      "CH 116": 0.85,
+      "CH 114": 0.8
+    },
+    "clubs01": {
+      "Public Health Society": 0.9,
+      "UNICEF at Tufts": 0.7,
+      "Doctors Without Borders at Tufts": 0.65,
+      "Tufts for Health Equity": 0.75
+    },
+    "idealPreferences": {
+      "teamVsIndependent": 70,
+      "analyticalVsCreative": 35,
+      "structuredVsFlexible": 45
+    },
+    "scoringWeights": {
+      "skills": 0.55,
+      "courses": 0.22,
+      "clubs": 0.11,
+      "preferences": 0.12
+    }
+  },
+  {
+    "id": "policy_analyst",
+    "title": "Policy Analyst",
+    "description": "Evaluates existing policies and develops evidence-based recommendations for government agencies, think tanks, or nonprofits.",
+    "skills01": {
+      "Research Methods": 0.9,
+      "Critical Thinking": 0.9,
+      "Communication": 0.85,
+      "Data Analysis": 0.65,
+      "Presentation Skills": 0.7,
+      "Storytelling": 0.6,
+      "Policy Analysis": 0.9
+    },
+    "courses01": {
+      "PS 103": 0.9,
+      "PS 191": 0.85,
+      "CVS 20": 0.75,
+      "SOC 100": 0.7
+    },
+    "clubs01": {
+      "Tisch College of Civic Life": 0.85,
+      "Cooperation and Innovation in Citizenship (CIVIC)": 0.8,
+      "Jumbos for Nonprofits": 0.65,
+      "Model United Nations": 0.7
+    },
+    "idealPreferences": {
+      "teamVsIndependent": 65,
+      "analyticalVsCreative": 40,
+      "structuredVsFlexible": 50
+    },
+    "scoringWeights": {
+      "skills": 0.55,
+      "courses": 0.22,
+      "clubs": 0.11,
+      "preferences": 0.12
+    }
+  },
+  {
+    "id": "nonprofit_program_associate",
+    "title": "Nonprofit Program Associate",
+    "description": "Supports the design and execution of community programs at nonprofits. Coordinates volunteers, manages logistics, and tracks program outcomes.",
+    "skills01": {
+      "Coordination": 0.9,
+      "Communication": 0.9,
+      "Collaboration": 0.85,
+      "Project Management": 0.7,
+      "Event Planning": 0.65,
+      "Community Outreach": 0.75
+    },
+    "courses01": {
+      "CVS 20": 0.85,
+      "SOC 1": 0.7,
+      "ENT 141": 0.8
+    },
+    "clubs01": {
+      "Jumbos for Nonprofits": 0.95,
+      "Leonard Carmichael Society (LCS)": 0.9,
+      "Tisch College of Civic Life": 0.8
+    },
+    "idealPreferences": {
+      "teamVsIndependent": 85,
+      "analyticalVsCreative": 55,
+      "structuredVsFlexible": 55
+    },
+    "scoringWeights": {
+      "skills": 0.55,
+      "courses": 0.22,
+      "clubs": 0.11,
+      "preferences": 0.12
+    }
+  },
+  {
+    "id": "entrepreneur",
+    "title": "Entrepreneur / Startup Founder",
+    "description": "Builds a company from the ground up. Identifies market opportunities, assembles teams, raises funding, and navigates the chaos of early-stage growth.",
+    "skills01": {
+      "Leadership": 0.9,
+      "Problem Solving": 0.9,
+      "Communication": 0.85,
+      "Marketing Strategy": 0.7,
+      "Product Management": 0.7,
+      "Business Strategy": 0.8,
+      "Sales": 0.65
+    },
+    "courses01": {
+      "ENT 101": 0.95,
+      "ENT 103": 0.85,
+      "ENT 105": 0.8,
+      "EC 50": 0.7
+    },
+    "clubs01": {
+      "Jumbo Ventures": 0.95,
+      "Women Entrepreneurs at Tufts (WE@T)": 0.9,
+      "Alpha Kappa Psi": 0.65,
+      "Lantern Think Tank": 0.7
+    },
+    "idealPreferences": {
+      "structuredVsFlexible": 80,
+      "analyticalVsCreative": 75,
+      "teamVsIndependent": 70
+    },
+    "scoringWeights": {
+      "skills": 0.55,
+      "courses": 0.22,
+      "clubs": 0.11,
+      "preferences": 0.12
+    }
+  },
+  {
+    "id": "technical_writer",
+    "title": "Technical Writer",
+    "description": "Translates complex technical concepts into clear, accessible documentation — from API references to user guides and onboarding materials.",
+    "skills01": {
+      "Communication": 0.9,
+      "Content Writing / Copywriting": 0.9,
+      "Presentation Skills": 0.75,
+      "APIs / REST / GraphQL": 0.55,
+      "Python": 0.5,
+      "Storytelling": 0.65
+    },
+    "courses01": {
+      "ENG 1": 0.9,
+      "ENG 7": 0.8,
+      "CS 20": 0.6
+    },
+    "clubs01": {
+      "Tufts Daily": 0.85,
+      "Observer": 0.8,
+      "English Society": 0.75
+    },
+    "idealPreferences": {
+      "analyticalVsCreative": 65,
+      "teamVsIndependent": 45,
+      "structuredVsFlexible": 60
+    },
+    "scoringWeights": {
+      "skills": 0.55,
+      "courses": 0.22,
+      "clubs": 0.11,
+      "preferences": 0.12
+    }
+  },
+  {
+    "id": "project_manager",
+    "title": "Project Manager",
+    "description": "Plans, tracks, and delivers complex projects on time and on budget. Coordinates teams, manages risks, and keeps stakeholders aligned.",
+    "skills01": {
+      "Project Management": 0.95,
+      "Communication": 0.9,
+      "Prioritization": 0.85,
+      "Agile / Scrum / Kanban": 0.75,
+      "Leadership": 0.7,
+      "Time Management": 0.8,
+      "Stakeholder Management": 0.7
+    },
+    "courses01": {
+      "EM 51": 0.9,
+      "EM 62": 0.85,
+      "TML 208": 0.8
+    },
+    "clubs01": {
+      "Engineering Student Council (ESC)": 0.8,
+      "Tufts Community Union (TCU) Senate": 0.7
+    },
+    "idealPreferences": {
+      "structuredVsFlexible": 35,
+      "teamVsIndependent": 80,
+      "analyticalVsCreative": 40
+    },
+    "scoringWeights": {
+      "skills": 0.55,
+      "courses": 0.22,
+      "clubs": 0.11,
+      "preferences": 0.12
+    }
+  },
+  {
+    "id": "robotics_engineer",
+    "title": "Robotics Engineer",
+    "description": "Designs and programs robots and autonomous systems. Works at the intersection of mechanical, electrical, and software engineering.",
+    "skills01": {
+      "Python": 0.9,
+      "Problem Solving": 0.9,
+      "Statistics": 0.7,
+      "Machine Learning": 0.65,
+      "C++": 0.75,
+      "Experiment Design": 0.6
+    },
+    "courses01": {
+      "CS 141": 0.95,
+      "CS 135": 0.8,
+      "ME 134": 0.9
+    },
+    "clubs01": {
+      "Robotics Club": 0.95,
+      "Engineering Student Council (ESC)": 0.7,
+      "Electric Racing": 0.6
+    },
+    "idealPreferences": {
+      "analyticalVsCreative": 55,
+      "structuredVsFlexible": 45,
+      "teamVsIndependent": 65
+    },
+    "scoringWeights": {
+      "skills": 0.55,
+      "courses": 0.22,
+      "clubs": 0.11,
+      "preferences": 0.12
+    }
+  },
+  {
+    "id": "journalist",
+    "title": "Journalist / Reporter",
+    "description": "Investigates stories, interviews sources, and writes news or feature articles for print, digital, broadcast, or podcast outlets.",
+    "skills01": {
+      "Content Writing / Copywriting": 0.9,
+      "Communication": 0.9,
+      "Research Methods": 0.85,
+      "Storytelling": 0.9,
+      "Critical Thinking": 0.8,
+      "Journalism / Reporting": 0.95,
+      "Public Speaking": 0.6
+    },
+    "courses01": {
+      "ENG 7": 0.85,
+      "ENG 11": 0.95,
+      "FMS 13": 0.8,
+      "FMS 31": 0.9
+    },
+    "clubs01": {
+      "Tufts Daily": 0.95,
+      "Observer": 0.85,
+      "Her Campus Tufts": 0.75,
+      "WMFO": 0.65
+    },
+    "idealPreferences": {
+      "analyticalVsCreative": 70,
+      "teamVsIndependent": 50,
+      "structuredVsFlexible": 65
+    },
+    "scoringWeights": {
+      "skills": 0.55,
+      "courses": 0.22,
+      "clubs": 0.11,
+      "preferences": 0.12
+    }
+  },
+  {
+    "id": "editor",
+    "title": "Editor (Book / Magazine / Digital)",
+    "description": "Shapes written content for clarity, accuracy, and style. Works with writers to develop ideas and ensure quality across publications.",
+    "skills01": {
+      "Content Writing / Copywriting": 0.85,
+      "Communication": 0.9,
+      "Storytelling": 0.85,
+      "Critical Thinking": 0.8,
+      "Journalism / Reporting": 0.7,
+      "Active Listening": 0.65,
+      "Coaching": 0.55
+    },
+    "courses01": {
+      "ENG 1": 0.85,
+      "ENG 13": 0.9,
+      "ENG 173": 0.75
+    },
+    "clubs01": {
+      "Tufts Daily": 0.9,
+      "Observer": 0.85,
+      "Parnassus": 0.8,
+      "Currents Magazine": 0.75
+    },
+    "idealPreferences": {
+      "analyticalVsCreative": 75,
+      "teamVsIndependent": 50,
+      "structuredVsFlexible": 60
+    },
+    "scoringWeights": {
+      "skills": 0.55,
+      "courses": 0.22,
+      "clubs": 0.11,
+      "preferences": 0.12
+    }
+  },
+  {
+    "id": "copywriter",
+    "title": "Copywriter",
+    "description": "Writes persuasive, on-brand copy for ads, websites, emails, and campaigns. Balances creativity with strategy to move audiences to action.",
+    "skills01": {
+      "Content Writing / Copywriting": 0.95,
+      "Storytelling": 0.9,
+      "Communication": 0.85,
+      "Branding / Visual Identity": 0.65,
+      "Marketing Strategy": 0.6,
+      "SEO": 0.5
+    },
+    "courses01": {
+      "ENG 5": 0.85,
+      "ENG 10": 0.8,
+      "FMS 32": 0.75
+    },
+    "clubs01": {
+      "Tufts Daily": 0.85,
+      "Her Campus Tufts": 0.8,
+      "English Society": 0.7
+    },
+    "idealPreferences": {
+      "analyticalVsCreative": 85,
+      "teamVsIndependent": 45,
+      "structuredVsFlexible": 65
+    },
+    "scoringWeights": {
+      "skills": 0.55,
+      "courses": 0.22,
+      "clubs": 0.11,
+      "preferences": 0.12
+    }
+  },
+  {
+    "id": "creative_writer",
+    "title": "Creative Writer / Author",
+    "description": "Crafts fiction, poetry, essays, or screenplays. Pursues publishing through literary journals, agents, presses, or independent platforms.",
+    "skills01": {
+      "Content Writing / Copywriting": 0.9,
+      "Storytelling": 0.95,
+      "Communication": 0.75,
+      "Critical Thinking": 0.7,
+      "Academic Writing": 0.65
+    },
+    "courses01": {
+      "ENG 5": 0.95,
+      "ENG 6": 0.9,
+      "ENG 13": 0.9,
+      "ENG 10": 0.85
+    },
+    "clubs01": {
+      "Parnassus": 0.9,
+      "English Society": 0.85,
+      "Observer": 0.75,
+      "Future Histories Literary Magazine (FH)": 0.85
+    },
+    "idealPreferences": {
+      "analyticalVsCreative": 95,
+      "teamVsIndependent": 25,
+      "structuredVsFlexible": 75
+    },
+    "scoringWeights": {
+      "skills": 0.55,
+      "courses": 0.22,
+      "clubs": 0.11,
+      "preferences": 0.12
+    }
+  },
+  {
+    "id": "screenwriter",
+    "title": "Screenwriter",
+    "description": "Develops scripts for film, TV, or streaming. Constructs compelling characters, dialogue, and narrative structure for visual storytelling.",
+    "skills01": {
+      "Storytelling": 0.95,
+      "Content Writing / Copywriting": 0.85,
+      "Communication": 0.75,
+      "Critical Thinking": 0.7,
+      "Collaboration": 0.65
+    },
+    "courses01": {
+      "FMS 20": 0.95,
+      "FMS 21": 0.9,
+      "FMS 23": 0.85,
+      "FMS 14": 0.85
+    },
+    "clubs01": {
+      "Torn Ticket II": 0.8,
+      "Tufts University Television (TUTV)": 0.75,
+      "Film Club": 0.85
+    },
+    "idealPreferences": {
+      "analyticalVsCreative": 90,
+      "teamVsIndependent": 40,
+      "structuredVsFlexible": 70
+    },
+    "scoringWeights": {
+      "skills": 0.55,
+      "courses": 0.22,
+      "clubs": 0.11,
+      "preferences": 0.12
+    }
+  },
+  {
+    "id": "documentary_filmmaker",
+    "title": "Documentary Filmmaker",
+    "description": "Researches and produces non-fiction films about real events, people, and issues. Combines investigative instincts with cinematic craft.",
+    "skills01": {
+      "Storytelling": 0.95,
+      "Video Editing (Premiere, Final Cut)": 0.9,
+      "Research Methods": 0.8,
+      "Communication": 0.8,
+      "Project Management": 0.65,
+      "Audio Editing / Sound Design": 0.6
+    },
+    "courses01": {
+      "FMS 13": 0.95,
+      "FMS 150": 0.9,
+      "FMS 10": 0.85
+    },
+    "clubs01": {
+      "Film Club": 0.9,
+      "Tufts University Television (TUTV)": 0.8,
+      "Observer": 0.65
+    },
+    "idealPreferences": {
+      "analyticalVsCreative": 85,
+      "teamVsIndependent": 50,
+      "structuredVsFlexible": 70
+    },
+    "scoringWeights": {
+      "skills": 0.55,
+      "courses": 0.22,
+      "clubs": 0.11,
+      "preferences": 0.12
+    }
+  },
+  {
+    "id": "museum_curator",
+    "title": "Museum Curator",
+    "description": "Acquires, organizes, and interprets collections for museums and galleries. Develops exhibitions that educate and engage the public.",
+    "skills01": {
+      "Research Methods": 0.9,
+      "Communication": 0.85,
+      "Critical Thinking": 0.8,
+      "Storytelling": 0.75,
+      "Academic Writing": 0.7,
+      "Literature Review": 0.65,
+      "Grant Writing": 0.6
+    },
+    "courses01": {
+      "HAA 100": 0.9,
+      "HAA 285": 0.95,
+      "HIST 284": 0.85
+    },
+    "clubs01": {
+      "Tufts University Art Galleries": 0.95,
+      "Art Galleries Student Programming Committee (TUAG SPC)": 0.9,
+      "History Society": 0.7
+    },
+    "idealPreferences": {
+      "analyticalVsCreative": 70,
+      "teamVsIndependent": 55,
+      "structuredVsFlexible": 50
+    },
+    "scoringWeights": {
+      "skills": 0.55,
+      "courses": 0.22,
+      "clubs": 0.11,
+      "preferences": 0.12
+    }
+  },
+  {
+    "id": "archivist",
+    "title": "Archivist / Digital Preservation Specialist",
+    "description": "Organizes, preserves, and provides access to historical records and cultural materials — increasingly in digital formats.",
+    "skills01": {
+      "Research Methods": 0.9,
+      "Communication": 0.8,
+      "Critical Thinking": 0.75,
+      "Academic Writing": 0.7,
+      "Literature Review": 0.65
+    },
+    "courses01": {
+      "HIST 100": 0.85,
+      "HAA 288": 0.9,
+      "DH 101": 0.8
+    },
+    "clubs01": {
+      "Digital Collections and Archives": 0.95,
+      "History Society": 0.75,
+      "Tufts University Art Galleries": 0.65
+    },
+    "idealPreferences": {
+      "analyticalVsCreative": 55,
+      "teamVsIndependent": 35,
+      "structuredVsFlexible": 35
+    },
+    "scoringWeights": {
+      "skills": 0.55,
+      "courses": 0.22,
+      "clubs": 0.11,
+      "preferences": 0.12
+    }
+  },
+  {
+    "id": "historian_researcher",
+    "title": "Historian / Academic Researcher",
+    "description": "Conducts original historical research, publishes scholarship, and teaches. Works in universities, research institutes, or public history settings.",
+    "skills01": {
+      "Research Methods": 0.95,
+      "Academic Writing": 0.95,
+      "Critical Thinking": 0.9,
+      "Communication": 0.8,
+      "Literature Review": 0.85,
+      "Qualitative Research": 0.8
+    },
+    "courses01": {
+      "HIST 193": 0.9,
+      "HIST 198": 0.95,
+      "HIST 199": 0.95
+    },
+    "clubs01": {
+      "History Society": 0.9,
+      "Historical Review": 0.85,
+      "ResearcHERS": 0.65
+    },
+    "idealPreferences": {
+      "analyticalVsCreative": 60,
+      "teamVsIndependent": 25,
+      "structuredVsFlexible": 40
+    },
+    "scoringWeights": {
+      "skills": 0.55,
+      "courses": 0.22,
+      "clubs": 0.11,
+      "preferences": 0.12
+    }
+  },
+  {
+    "id": "philosophy_academic",
+    "title": "Philosopher / Ethics Researcher",
+    "description": "Investigates foundational questions in ethics, epistemology, logic, and metaphysics through argument and analysis. Relevant in academia, AI ethics, law, and policy.",
+    "skills01": {
+      "Critical Thinking": 0.95,
+      "Academic Writing": 0.9,
+      "Communication": 0.85,
+      "Research Methods": 0.85,
+      "Public Speaking": 0.65,
+      "Qualitative Research": 0.75
+    },
+    "courses01": {
+      "PHIL 24": 0.85,
+      "PHIL 121": 0.9,
+      "PHIL 151": 0.85,
+      "PHIL 110": 0.8
+    },
+    "clubs01": {
+      "Effective Altruism": 0.8,
+      "Debate Society": 0.75,
+      "AI Safety Student Association (TASSA)": 0.65
+    },
+    "idealPreferences": {
+      "analyticalVsCreative": 55,
+      "teamVsIndependent": 30,
+      "structuredVsFlexible": 45
+    },
+    "scoringWeights": {
+      "skills": 0.55,
+      "courses": 0.22,
+      "clubs": 0.11,
+      "preferences": 0.12
+    }
+  },
+  {
+    "id": "sociologist_researcher",
+    "title": "Sociologist / Social Researcher",
+    "description": "Studies social structures, inequality, and human behavior through quantitative and qualitative research. Works in academia, government, think tanks, or NGOs.",
+    "skills01": {
+      "Research Methods": 0.95,
+      "Qualitative Research": 0.85,
+      "Quantitative Research": 0.8,
+      "Communication": 0.8,
+      "Academic Writing": 0.85,
+      "Statistics": 0.65,
+      "Survey Design": 0.7
+    },
+    "courses01": {
+      "SOC 100": 0.9,
+      "SOC 101": 0.85,
+      "SOC 102": 0.85,
+      "SOC 103": 0.8
+    },
+    "clubs01": {
+      "ResearcHERS": 0.8,
+      "Tisch College of Civic Life": 0.7,
+      "Cooperation and Innovation in Citizenship (CIVIC)": 0.65
+    },
+    "idealPreferences": {
+      "analyticalVsCreative": 45,
+      "teamVsIndependent": 45,
+      "structuredVsFlexible": 55
+    },
+    "scoringWeights": {
+      "skills": 0.55,
+      "courses": 0.22,
+      "clubs": 0.11,
+      "preferences": 0.12
+    }
+  },
+  {
+    "id": "psychologist_researcher",
+    "title": "Research Psychologist",
+    "description": "Designs and conducts empirical studies on behavior and cognition. Works in academic labs, hospitals, or private research organizations.",
+    "skills01": {
+      "Research Methods": 0.95,
+      "Experiment Design": 0.9,
+      "Statistics": 0.85,
+      "Academic Writing": 0.85,
+      "Communication": 0.75,
+      "Hypothesis Testing": 0.8,
+      "Quantitative Research": 0.75
+    },
+    "courses01": {
+      "PSY 32": 0.95,
+      "PSY 31": 0.9,
+      "PSY 91": 0.9,
+      "PSY 92": 0.85
+    },
+    "clubs01": {
+      "Psychology Society": 0.9,
+      "ResearcHERS": 0.75,
+      "Mood Psychology": 0.85
+    },
+    "idealPreferences": {
+      "analyticalVsCreative": 40,
+      "teamVsIndependent": 45,
+      "structuredVsFlexible": 45
+    },
+    "scoringWeights": {
+      "skills": 0.55,
+      "courses": 0.22,
+      "clubs": 0.11,
+      "preferences": 0.12
+    }
+  },
+  {
+    "id": "clinical_psychologist",
+    "title": "Clinical Psychologist / Counselor",
+    "description": "Assesses and treats mental health conditions through evidence-based therapy. Requires licensure; works in hospitals, private practice, or community settings.",
+    "skills01": {
+      "Communication": 0.95,
+      "Active Listening": 0.95,
+      "Research Methods": 0.75,
+      "Emotional Intelligence": 0.9,
+      "Counseling": 0.95,
+      "Critical Thinking": 0.75,
+      "Collaboration": 0.7
+    },
+    "courses01": {
+      "PSY 1": 0.8,
+      "PSY 12": 0.9,
+      "PSY 106": 0.95,
+      "PSY 181": 0.95
+    },
+    "clubs01": {
+      "Psychology Society": 0.85,
+      "Active Minds": 0.8,
+      "Ears for Peers": 0.9
+    },
+    "idealPreferences": {
+      "teamVsIndependent": 65,
+      "analyticalVsCreative": 55,
+      "structuredVsFlexible": 55
+    },
+    "scoringWeights": {
+      "skills": 0.55,
+      "courses": 0.22,
+      "clubs": 0.11,
+      "preferences": 0.12
+    }
+  },
+  {
+    "id": "international_relations_specialist",
+    "title": "International Relations Specialist",
+    "description": "Analyzes global political dynamics and foreign policy for governments, NGOs, international organizations, or think tanks.",
+    "skills01": {
+      "Research Methods": 0.9,
+      "Communication": 0.9,
+      "Critical Thinking": 0.85,
+      "Academic Writing": 0.8,
+      "Presentation Skills": 0.7,
+      "Policy Analysis": 0.85
+    },
+    "courses01": {
+      "PS 61": 0.9,
+      "PS 81": 0.85,
+      "PS 188": 0.85,
+      "CVS 61": 0.8
+    },
+    "clubs01": {
+      "Model United Nations": 0.95,
+      "Women In International Relations": 0.9,
+      "Alexander Hamilton Society": 0.75,
+      "European Horizons": 0.7
+    },
+    "idealPreferences": {
+      "teamVsIndependent": 60,
+      "analyticalVsCreative": 40,
+      "structuredVsFlexible": 50
+    },
+    "scoringWeights": {
+      "skills": 0.55,
+      "courses": 0.22,
+      "clubs": 0.11,
+      "preferences": 0.12
+    }
+  },
+  {
+    "id": "lawyer",
+    "title": "Lawyer (Pre-Law / Legal Track)",
+    "description": "Represents clients, drafts legal documents, and advises on rights and obligations. Requires law school; paths include litigation, corporate law, public interest, and policy.",
+    "skills01": {
+      "Critical Thinking": 0.95,
+      "Communication": 0.95,
+      "Research Methods": 0.9,
+      "Academic Writing": 0.9,
+      "Negotiation": 0.75,
+      "Public Speaking": 0.8,
+      "Legal Research": 0.9
+    },
+    "courses01": {
+      "PS 191": 0.8,
+      "PHIL 33": 0.75,
+      "PHIL 43": 0.8,
+      "CVS 183": 0.75
+    },
+    "clubs01": {
+      "Pre-Law Society": 0.95,
+      "Mock Trial": 0.9,
+      "Phi Alpha Delta": 0.9,
+      "Debate Society": 0.85,
+      "Undergraduate Law Review": 0.85
+    },
+    "idealPreferences": {
+      "analyticalVsCreative": 45,
+      "teamVsIndependent": 55,
+      "structuredVsFlexible": 35
+    },
+    "scoringWeights": {
+      "skills": 0.55,
+      "courses": 0.22,
+      "clubs": 0.11,
+      "preferences": 0.12
+    }
+  },
+  {
+    "id": "diplomat_foreign_service",
+    "title": "Foreign Service Officer / Diplomat",
+    "description": "Represents national interests abroad through negotiations, reporting, and relationship-building. Works for the State Department or international organizations.",
+    "skills01": {
+      "Communication": 0.95,
+      "Critical Thinking": 0.9,
+      "Research Methods": 0.85,
+      "Negotiation": 0.85,
+      "Public Speaking": 0.75,
+      "Cross-functional Collaboration": 0.7,
+      "Policy Analysis": 0.8
+    },
+    "courses01": {
+      "PS 61": 0.9,
+      "PS 172": 0.85,
+      "PS 175": 0.8,
+      "CVS 81": 0.8
+    },
+    "clubs01": {
+      "Model United Nations": 0.95,
+      "Women In International Relations": 0.85,
+      "Alexander Hamilton Society": 0.8,
+      "Debate Society": 0.75
+    },
+    "idealPreferences": {
+      "teamVsIndependent": 70,
+      "analyticalVsCreative": 45,
+      "structuredVsFlexible": 50
+    },
+    "scoringWeights": {
+      "skills": 0.55,
+      "courses": 0.22,
+      "clubs": 0.11,
+      "preferences": 0.12
+    }
+  },
+  {
+    "id": "teacher_k12",
+    "title": "K-12 Teacher / Educator",
+    "description": "Designs and delivers lessons for elementary, middle, or high school students. Combines subject expertise with classroom management and a passion for student development.",
+    "skills01": {
+      "Teaching / Instruction": 0.95,
+      "Communication": 0.9,
+      "Mentorship": 0.85,
+      "Curriculum Development": 0.8,
+      "Active Listening": 0.8,
+      "Adaptability": 0.75,
+      "Collaboration": 0.7
+    },
+    "courses01": {
+      "ED 101": 0.95,
+      "ED 102": 0.9,
+      "ED 130": 0.85,
+      "ED 1": 0.8
+    },
+    "clubs01": {
+      "Alliance Linking Leaders in Education and Services (ALLIES)": 0.85,
+      "Tutors for Hope": 0.8,
+      "Leonard Carmichael Society (LCS)": 0.75,
+      "Tutoring": 0.9
+    },
+    "idealPreferences": {
+      "teamVsIndependent": 75,
+      "analyticalVsCreative": 65,
+      "structuredVsFlexible": 55
+    },
+    "scoringWeights": {
+      "skills": 0.55,
+      "courses": 0.22,
+      "clubs": 0.11,
+      "preferences": 0.12
+    }
+  },
+  {
+    "id": "higher_ed_admin",
+    "title": "Higher Education Administrator",
+    "description": "Manages programs, student services, or operations at colleges and universities. Roles include admissions, student affairs, academic advising, and institutional research.",
+    "skills01": {
+      "Communication": 0.9,
+      "Leadership": 0.8,
+      "Project Management": 0.75,
+      "Collaboration": 0.85,
+      "Stakeholder Management": 0.7,
+      "Data Analysis": 0.55
+    },
+    "courses01": {
+      "CVS 20": 0.75,
+      "ED 1": 0.8,
+      "SOC 1": 0.65
+    },
+    "clubs01": {
+      "Tufts Community Union (TCU) Senate": 0.85,
+      "Career Center": 0.75,
+      "Office for Campus Life": 0.8
+    },
+    "idealPreferences": {
+      "teamVsIndependent": 80,
+      "analyticalVsCreative": 50,
+      "structuredVsFlexible": 50
+    },
+    "scoringWeights": {
+      "skills": 0.55,
+      "courses": 0.22,
+      "clubs": 0.11,
+      "preferences": 0.12
+    }
+  },
+  {
+    "id": "public_relations_specialist",
+    "title": "Public Relations Specialist",
+    "description": "Manages the public image of organizations and individuals through media outreach, press releases, crisis communication, and event planning.",
+    "skills01": {
+      "Communication": 0.95,
+      "Content Writing / Copywriting": 0.85,
+      "Public Relations": 0.95,
+      "Storytelling": 0.8,
+      "Social Media Content Creation": 0.7,
+      "Presentation Skills": 0.7,
+      "Networking": 0.65
+    },
+    "courses01": {
+      "FMS 32": 0.95,
+      "FMS 35": 0.9,
+      "ENT 13": 0.75
+    },
+    "clubs01": {
+      "Tufts Daily": 0.8,
+      "Her Campus Tufts": 0.75,
+      "Tufts Community Union (TCU) Senate": 0.65
+    },
+    "idealPreferences": {
+      "analyticalVsCreative": 70,
+      "teamVsIndependent": 70,
+      "structuredVsFlexible": 60
+    },
+    "scoringWeights": {
+      "skills": 0.55,
+      "courses": 0.22,
+      "clubs": 0.11,
+      "preferences": 0.12
+    }
+  },
+  {
+    "id": "urban_planner",
+    "title": "Urban / City Planner",
+    "description": "Shapes the development of cities and communities by analyzing land use, transportation, housing, and environmental impact.",
+    "skills01": {
+      "Research Methods": 0.85,
+      "Communication": 0.85,
+      "Data Analysis": 0.75,
+      "Policy Analysis": 0.8,
+      "Geospatial Analysis / GIS": 0.75,
+      "Collaboration": 0.7,
+      "Stakeholder Management": 0.65
+    },
+    "courses01": {
+      "UEP 105": 0.95,
+      "UEP 101": 0.9,
+      "UEP 113": 0.85,
+      "GIS 101": 0.8
+    },
+    "clubs01": {
+      "Cooperation and Innovation in Citizenship (CIVIC)": 0.75,
+      "Environmental Health League": 0.7,
+      "Climate Action": 0.65
+    },
+    "idealPreferences": {
+      "teamVsIndependent": 70,
+      "analyticalVsCreative": 55,
+      "structuredVsFlexible": 50
+    },
+    "scoringWeights": {
+      "skills": 0.55,
+      "courses": 0.22,
+      "clubs": 0.11,
+      "preferences": 0.12
+    }
+  },
+  {
+    "id": "environmental_consultant",
+    "title": "Environmental Consultant",
+    "description": "Advises organizations on environmental regulations, sustainability strategy, and impact assessments. Works across corporate, government, and NGO sectors.",
+    "skills01": {
+      "Research Methods": 0.85,
+      "Communication": 0.85,
+      "Data Analysis": 0.75,
+      "Sustainability / ESG": 0.9,
+      "Policy Analysis": 0.7,
+      "Scientific Writing": 0.65
+    },
+    "courses01": {
+      "ENV 100": 0.9,
+      "ENV 135": 0.85,
+      "CEE 32": 0.8,
+      "ENV 187": 0.8
+    },
+    "clubs01": {
+      "Climate Action": 0.9,
+      "Environmental Health League": 0.85,
+      "Engineers Without Borders": 0.65
+    },
+    "idealPreferences": {
+      "teamVsIndependent": 65,
+      "analyticalVsCreative": 45,
+      "structuredVsFlexible": 50
+    },
+    "scoringWeights": {
+      "skills": 0.55,
+      "courses": 0.22,
+      "clubs": 0.11,
+      "preferences": 0.12
+    }
+  },
+  {
+    "id": "social_worker",
+    "title": "Social Worker / Case Manager",
+    "description": "Supports individuals and families navigating poverty, mental health crises, housing instability, and other challenges. Requires licensure for clinical roles.",
+    "skills01": {
+      "Communication": 0.95,
+      "Active Listening": 0.95,
+      "Collaboration": 0.85,
+      "Emotional Intelligence": 0.9,
+      "Case Management": 0.9,
+      "Counseling": 0.8,
+      "Advocacy": 0.75
+    },
+    "courses01": {
+      "SOC 1": 0.8,
+      "CVS 161": 0.85,
+      "CSHD 1": 0.75,
+      "PSY 1": 0.7
+    },
+    "clubs01": {
+      "Leonard Carmichael Society (LCS)": 0.85,
+      "CARE - Center for Awareness, Resources, and Education": 0.8,
+      "Homelessness Outreach and Meal Equity (HOME)": 0.9,
+      "Ears for Peers": 0.75
+    },
+    "idealPreferences": {
+      "teamVsIndependent": 80,
+      "analyticalVsCreative": 55,
+      "structuredVsFlexible": 55
+    },
+    "scoringWeights": {
+      "skills": 0.55,
+      "courses": 0.22,
+      "clubs": 0.11,
+      "preferences": 0.12
+    }
+  },
+  {
+    "id": "human_rights_advocate",
+    "title": "Human Rights Advocate / Activist",
+    "description": "Works to protect civil and human rights through legal advocacy, organizing, documentation, and policy reform at NGOs, legal clinics, or international bodies.",
+    "skills01": {
+      "Communication": 0.9,
+      "Research Methods": 0.85,
+      "Critical Thinking": 0.85,
+      "Advocacy": 0.95,
+      "Storytelling": 0.75,
+      "Policy Analysis": 0.75,
+      "Community Outreach": 0.7
+    },
+    "courses01": {
+      "CVS 20": 0.85,
+      "PS 43": 0.8,
+      "SOC 122": 0.8,
+      "PHIL 43": 0.75
+    },
+    "clubs01": {
+      "Amnesty International": 0.95,
+      "Cooperation and Innovation in Citizenship (CIVIC)": 0.85,
+      "United for Immigrant Justice": 0.85,
+      "Tufts University Prison Initiative at Tisch": 0.8
+    },
+    "idealPreferences": {
+      "teamVsIndependent": 70,
+      "analyticalVsCreative": 55,
+      "structuredVsFlexible": 65
+    },
+    "scoringWeights": {
+      "skills": 0.55,
+      "courses": 0.22,
+      "clubs": 0.11,
+      "preferences": 0.12
+    }
+  },
+  {
+    "id": "librarian_information_specialist",
+    "title": "Librarian / Information Specialist",
+    "description": "Organizes and provides access to information resources. Modern roles often involve digital literacy, data management, instructional support, and community programming.",
+    "skills01": {
+      "Research Methods": 0.9,
+      "Communication": 0.85,
+      "Collaboration": 0.75,
+      "Academic Writing": 0.7,
+      "Instructional Design": 0.65,
+      "Database Design": 0.55
+    },
+    "courses01": {
+      "DH 101": 0.85,
+      "HIST 100": 0.75,
+      "ENG 3": 0.7
+    },
+    "clubs01": {
+      "Digital Collections and Archives": 0.9,
+      "Graphic Novel Club": 0.65,
+      "Book Club": 0.75
+    },
+    "idealPreferences": {
+      "analyticalVsCreative": 55,
+      "teamVsIndependent": 45,
+      "structuredVsFlexible": 40
+    },
+    "scoringWeights": {
+      "skills": 0.55,
+      "courses": 0.22,
+      "clubs": 0.11,
+      "preferences": 0.12
+    }
+  },
+  {
+    "id": "translator_interpreter",
+    "title": "Translator / Interpreter",
+    "description": "Converts written or spoken content between languages. Works in legal, medical, literary, diplomatic, or corporate settings.",
+    "skills01": {
+      "Communication": 0.9,
+      "Translation / Interpretation": 0.95,
+      "Academic Writing": 0.75,
+      "Critical Thinking": 0.7,
+      "Active Listening": 0.8
+    },
+    "courses01": {
+      "ILCS 61": 0.95,
+      "ILCS 60": 0.85,
+      "FR 147": 0.8,
+      "SPN 147": 0.8
+    },
+    "clubs01": {
+      "International Club": 0.75,
+      "International Center": 0.7,
+      "French Society": 0.65
+    },
+    "idealPreferences": {
+      "analyticalVsCreative": 60,
+      "teamVsIndependent": 40,
+      "structuredVsFlexible": 55
+    },
+    "scoringWeights": {
+      "skills": 0.55,
+      "courses": 0.22,
+      "clubs": 0.11,
+      "preferences": 0.12
+    }
+  },
+  {
+    "id": "podcast_producer",
+    "title": "Podcast Producer / Audio Journalist",
+    "description": "Develops, records, edits, and distributes audio content. Combines storytelling instincts, technical audio skills, and an understanding of audience.",
+    "skills01": {
+      "Storytelling": 0.9,
+      "Audio Editing / Sound Design": 0.9,
+      "Communication": 0.85,
+      "Content Writing / Copywriting": 0.7,
+      "Research Methods": 0.7,
+      "Podcast Production": 0.95
+    },
+    "courses01": {
+      "FMS 51": 0.95,
+      "MDIA 61": 0.9,
+      "MDIA 166": 0.9
+    },
+    "clubs01": {
+      "WMFO": 0.95,
+      "JumboCast": 0.9,
+      "Tufts Daily": 0.65
+    },
+    "idealPreferences": {
+      "analyticalVsCreative": 80,
+      "teamVsIndependent": 50,
+      "structuredVsFlexible": 65
+    },
+    "scoringWeights": {
+      "skills": 0.55,
+      "courses": 0.22,
+      "clubs": 0.11,
+      "preferences": 0.12
+    }
+  },
+  {
+    "id": "art_director",
+    "title": "Art Director",
+    "description": "Oversees the visual style and creative direction of campaigns, publications, or digital products. Leads design teams and maintains brand coherence.",
+    "skills01": {
+      "Graphic Design (Photoshop, Illustrator, Figma, Sketch)": 0.9,
+      "Branding / Visual Identity": 0.95,
+      "Storytelling": 0.8,
+      "Leadership": 0.7,
+      "Communication": 0.8,
+      "Presentation Design": 0.7,
+      "Photography": 0.55
+    },
+    "courses01": {
+      "GRA 114": 0.9,
+      "GRA 126": 0.85,
+      "FMS 160": 0.8
+    },
+    "clubs01": {
+      "Art Galleries Student Programming Committee (TUAG SPC)": 0.8,
+      "Artists of Color Union": 0.7,
+      "Currents Magazine": 0.75
+    },
+    "idealPreferences": {
+      "analyticalVsCreative": 90,
+      "teamVsIndependent": 65,
+      "structuredVsFlexible": 65
+    },
+    "scoringWeights": {
+      "skills": 0.55,
+      "courses": 0.22,
+      "clubs": 0.11,
+      "preferences": 0.12
+    }
+  },
+  {
+    "id": "fashion_designer",
+    "title": "Fashion Designer / Textile Artist",
+    "description": "Creates clothing, accessories, or textiles. Works at the intersection of art, craft, and commerce, from high fashion to sustainable apparel.",
+    "skills01": {
+      "Fashion Design": 0.95,
+      "Illustration": 0.8,
+      "Branding / Visual Identity": 0.7,
+      "Storytelling": 0.65,
+      "Communication": 0.6,
+      "CAD (AutoCAD, SolidWorks)": 0.5
+    },
+    "courses01": {
+      "FIB 102": 0.9,
+      "FIB 145": 0.85,
+      "GRA 114": 0.65
+    },
+    "clubs01": {
+      "Fiber Arts Club": 0.95,
+      "SMFA Print Club": 0.7,
+      "Artists of Color Union": 0.65
+    },
+    "idealPreferences": {
+      "analyticalVsCreative": 90,
+      "teamVsIndependent": 45,
+      "structuredVsFlexible": 75
+    },
+    "scoringWeights": {
+      "skills": 0.55,
+      "courses": 0.22,
+      "clubs": 0.11,
+      "preferences": 0.12
+    }
+  },
+  {
+    "id": "architect",
+    "title": "Architect (Entry Level)",
+    "description": "Designs buildings and spaces that balance aesthetics, function, safety, and sustainability. Requires licensure; entry roles involve drafting, modeling, and supporting senior architects.",
+    "skills01": {
+      "CAD (AutoCAD, SolidWorks)": 0.9,
+      "Architectural / Technical Drawing": 0.9,
+      "Problem Solving": 0.8,
+      "Communication": 0.75,
+      "3D Modeling (Blender, Maya, Cinema 4D)": 0.7,
+      "Storytelling": 0.55,
+      "Sustainability / ESG": 0.6
+    },
+    "courses01": {
+      "HAA 8": 0.85,
+      "HAA 95": 0.9,
+      "HAA 96": 0.95
+    },
+    "clubs01": {
+      "Architectural Society": 0.95,
+      "Digital Fabrication Club": 0.8,
+      "ACM SIGGRAPH Student Chapter": 0.55
+    },
+    "idealPreferences": {
+      "analyticalVsCreative": 75,
+      "teamVsIndependent": 60,
+      "structuredVsFlexible": 55
+    },
+    "scoringWeights": {
+      "skills": 0.55,
+      "courses": 0.22,
+      "clubs": 0.11,
+      "preferences": 0.12
+    }
+  },
+  {
+    "id": "performing_arts_professional",
+    "title": "Performing Artist / Theater Professional",
+    "description": "Acts, directs, designs, or produces for stage, screen, or live performance. Paths include acting, stage management, scenic design, and arts administration.",
+    "skills01": {
+      "Communication": 0.85,
+      "Storytelling": 0.95,
+      "Collaboration": 0.85,
+      "Public Speaking": 0.8,
+      "Adaptability": 0.8,
+      "Creativity": 0.9
+    },
+    "courses01": {
+      "TPS 45": 0.95,
+      "TPS 155": 0.9,
+      "TPS 59": 0.85,
+      "FMS 24": 0.8
+    },
+    "clubs01": {
+      "Torn Ticket II": 0.95,
+      "Melpomene": 0.9,
+      "Cheap Sox": 0.85,
+      "Local Bard's Players (LBP)": 0.85
+    },
+    "idealPreferences": {
+      "analyticalVsCreative": 95,
+      "teamVsIndependent": 70,
+      "structuredVsFlexible": 80
+    },
+    "scoringWeights": {
+      "skills": 0.55,
+      "courses": 0.22,
+      "clubs": 0.11,
+      "preferences": 0.12
+    }
+  },
+  {
+    "id": "musician",
+    "title": "Musician / Music Producer",
+    "description": "Creates, performs, or produces music professionally. Roles span live performance, studio production, composition, and music direction for media.",
+    "skills01": {
+      "Music Production": 0.9,
+      "Audio Editing / Sound Design": 0.85,
+      "Communication": 0.7,
+      "Storytelling": 0.75,
+      "Collaboration": 0.7
+    },
+    "courses01": {
+      "MUS 140": 0.95,
+      "MUS 142": 0.9,
+      "MUS 118": 0.85,
+      "MUS 64": 0.8
+    },
+    "clubs01": {
+      "WMFO": 0.85,
+      "Bangin' Everything at Tufts (BEATs)": 0.9,
+      "Wind Ensemble": 0.75,
+      "Pep Band": 0.7
+    },
+    "idealPreferences": {
+      "analyticalVsCreative": 90,
+      "teamVsIndependent": 50,
+      "structuredVsFlexible": 75
+    },
+    "scoringWeights": {
+      "skills": 0.55,
+      "courses": 0.22,
+      "clubs": 0.11,
+      "preferences": 0.12
+    }
+  },
+  {
+    "id": "data_journalist",
+    "title": "Data Journalist",
+    "description": "Combines data analysis and storytelling to produce news stories. Uses statistics, visualization, and investigative reporting to uncover and communicate findings.",
+    "skills01": {
+      "Data Analysis": 0.9,
+      "Content Writing / Copywriting": 0.9,
+      "Storytelling": 0.9,
+      "Data Visualization (Tableau, PowerBI, Matplotlib, Seaborn)": 0.8,
+      "Research Methods": 0.8,
+      "Statistics": 0.65,
+      "SQL": 0.6
+    },
+    "courses01": {
+      "DATA 220": 0.9,
+      "DATA 100": 0.8,
+      "ENG 11": 0.85,
+      "CS 179": 0.7
+    },
+    "clubs01": {
+      "Tufts Daily": 0.9,
+      "National Student Data Corps Chapter": 0.8,
+      "Observer": 0.75
+    },
+    "idealPreferences": {
+      "analyticalVsCreative": 70,
+      "teamVsIndependent": 50,
+      "structuredVsFlexible": 55
+    },
+    "scoringWeights": {
+      "skills": 0.55,
+      "courses": 0.22,
+      "clubs": 0.11,
+      "preferences": 0.12
+    }
+  },
+  {
+    "id": "digital_humanities_specialist",
+    "title": "Digital Humanities Specialist",
+    "description": "Applies computational methods — text analysis, mapping, data visualization — to humanities research. Works in academia, libraries, archives, or cultural institutions.",
+    "skills01": {
+      "Research Methods": 0.9,
+      "Data Analysis": 0.75,
+      "Academic Writing": 0.85,
+      "Geospatial Analysis / GIS": 0.7,
+      "Python": 0.6,
+      "Communication": 0.75,
+      "Critical Thinking": 0.8
+    },
+    "courses01": {
+      "DH 101": 0.95,
+      "DH 130": 0.9,
+      "CLS 162": 0.85,
+      "CLS 181": 0.85
+    },
+    "clubs01": {
+      "Digital Collections and Archives": 0.9,
+      "History Society": 0.7,
+      "ResearcHERS": 0.65
+    },
+    "idealPreferences": {
+      "analyticalVsCreative": 60,
+      "teamVsIndependent": 40,
+      "structuredVsFlexible": 50
+    },
+    "scoringWeights": {
+      "skills": 0.55,
+      "courses": 0.22,
+      "clubs": 0.11,
+      "preferences": 0.12
+    }
+  },
+  {
+    "id": "community_organizer",
+    "title": "Community Organizer",
+    "description": "Builds power in communities by recruiting members, running campaigns, and advocating for systemic change. Works for unions, political campaigns, or grassroots organizations.",
+    "skills01": {
+      "Communication": 0.95,
+      "Advocacy": 0.9,
+      "Leadership": 0.85,
+      "Community Outreach": 0.9,
+      "Collaboration": 0.85,
+      "Public Speaking": 0.8,
+      "Event Planning": 0.7
+    },
+    "courses01": {
+      "CVS 20": 0.9,
+      "SOC 1": 0.8,
+      "CVS 150": 0.85
+    },
+    "clubs01": {
+      "Labor Coalition": 0.9,
+      "Climate Action": 0.8,
+      "Cooperation and Innovation in Citizenship (CIVIC)": 0.85,
+      "United for Immigrant Justice": 0.8
+    },
+    "idealPreferences": {
+      "teamVsIndependent": 85,
+      "analyticalVsCreative": 65,
+      "structuredVsFlexible": 70
+    },
+    "scoringWeights": {
+      "skills": 0.55,
+      "courses": 0.22,
+      "clubs": 0.11,
+      "preferences": 0.12
+    }
+  },
+  {
+    "id": "epidemiologist",
+    "title": "Epidemiologist",
+    "description": "Studies the distribution and causes of disease in populations. Designs surveillance systems, analyzes outbreak data, and informs public health interventions.",
+    "skills01": {
+      "Statistics": 0.9,
+      "Research Methods": 0.95,
+      "Data Analysis": 0.85,
+      "Epidemiology": 0.95,
+      "Academic Writing": 0.8,
+      "Experiment Design": 0.75
+    },
+    "courses01": {
+      "CH 114": 0.95,
+      "CH 116": 0.9,
+      "CEE 154": 0.9,
+      "BIO 132": 0.8
+    },
+    "clubs01": {
+      "Public Health Society": 0.9,
+      "Global Medical Brigades": 0.75,
+      "Tufts for Health Equity": 0.7,
+      "ResearcHERS": 0.65
+    },
+    "idealPreferences": {
+      "analyticalVsCreative": 30,
+      "structuredVsFlexible": 40,
+      "teamVsIndependent": 55
+    },
+    "scoringWeights": {
+      "skills": 0.55,
+      "courses": 0.22,
+      "clubs": 0.11,
+      "preferences": 0.12
+    }
+  },
+  {
+    "id": "finance_analyst",
+    "title": "Finance Analyst",
+    "description": "Prepares financial reports, models forecasts, and supports budgeting and strategic planning at corporations or financial institutions.",
+    "skills01": {
+      "Financial Analysis": 0.95,
+      "Budgeting": 0.9,
+      "Excel / Google Sheets": 0.9,
+      "Forecasting / Predictive Modeling": 0.8,
+      "Statistics": 0.65,
+      "Financial Modeling": 0.85,
+      "Communication": 0.7
+    },
+    "courses01": {
+      "EC 50": 0.9,
+      "EC 150": 0.9,
+      "EC 3": 0.8
+    },
+    "clubs01": {
+      "Investment Club": 0.9,
+      "Financial Group": 0.9,
+      "Alpha Kappa Psi": 0.7
+    },
+    "idealPreferences": {
+      "structuredVsFlexible": 35,
+      "analyticalVsCreative": 25,
+      "teamVsIndependent": 50
+    },
+    "scoringWeights": {
+      "skills": 0.55,
+      "courses": 0.22,
+      "clubs": 0.11,
+      "preferences": 0.12
+    }
+  },
+  {
+    "id": "biomedical_researcher",
+    "title": "Biomedical Researcher",
+    "description": "Conducts laboratory and clinical research to advance understanding of disease and develop new treatments. Works in academic labs, hospitals, or biotech companies.",
+    "skills01": {
+      "Research Methods": 0.95,
+      "Lab Techniques / Wet Lab": 0.9,
+      "Experiment Design": 0.9,
+      "Statistics": 0.75,
+      "Academic Writing": 0.8,
+      "Critical Thinking": 0.8,
+      "Scientific Writing": 0.85
+    },
+    "courses01": {
+      "BIO 50": 0.9,
+      "BIO 105": 0.9,
+      "BME 7": 0.85,
+      "CHBE 162": 0.8
+    },
+    "clubs01": {
+      "Biomedical Engineering Society": 0.9,
+      "Biotech Club": 0.85,
+      "American Society for Biochemistry and Molecular Biology": 0.85,
+      "ResearcHERS": 0.7
+    },
+    "idealPreferences": {
+      "analyticalVsCreative": 40,
+      "teamVsIndependent": 50,
+      "structuredVsFlexible": 40
+    },
+    "scoringWeights": {
+      "skills": 0.55,
+      "courses": 0.22,
+      "clubs": 0.11,
+      "preferences": 0.12
+    }
+  },
+  {
+    "id": "science_communicator",
+    "title": "Science Communicator / Educator",
+    "description": "Makes complex science accessible to general audiences through writing, video, teaching, or public outreach. Works in media, museums, nonprofits, or research institutions.",
+    "skills01": {
+      "Communication": 0.95,
+      "Storytelling": 0.9,
+      "Content Writing / Copywriting": 0.85,
+      "Research Methods": 0.75,
+      "Presentation Skills": 0.8,
+      "Social Media Content Creation": 0.6
+    },
+    "courses01": {
+      "BME 6": 0.85,
+      "ENG 7": 0.8,
+      "BIO 7": 0.75
+    },
+    "clubs01": {
+      "Grey Matters": 0.9,
+      "Breakthrough Undergraduate Research Journal": 0.85,
+      "Tufts Daily": 0.7
+    },
+    "idealPreferences": {
+      "analyticalVsCreative": 70,
+      "teamVsIndependent": 55,
+      "structuredVsFlexible": 60
+    },
+    "scoringWeights": {
+      "skills": 0.55,
+      "courses": 0.22,
+      "clubs": 0.11,
+      "preferences": 0.12
+    }
+  },
+  {
+    "id": "financial_planner",
+    "title": "Financial Planner / Advisor",
+    "description": "Helps individuals and families manage investments, plan for retirement, and navigate financial decisions. Often requires CFP certification.",
+    "skills01": {
+      "Financial Analysis": 0.9,
+      "Communication": 0.9,
+      "Financial Modeling": 0.75,
+      "Excel / Google Sheets": 0.8,
+      "Client Relations": 0.85,
+      "Active Listening": 0.8,
+      "Forecasting / Predictive Modeling": 0.7
+    },
+    "courses01": {
+      "EC 50": 0.85,
+      "EC 150": 0.8,
+      "TML 11": 0.9
+    },
+    "clubs01": {
+      "Investment Club": 0.85,
+      "Financial Group": 0.8,
+      "Career Center": 0.6
+    },
+    "idealPreferences": {
+      "teamVsIndependent": 65,
+      "analyticalVsCreative": 30,
+      "structuredVsFlexible": 40
+    },
+    "scoringWeights": {
+      "skills": 0.55,
+      "courses": 0.22,
+      "clubs": 0.11,
+      "preferences": 0.12
+    }
+  },
+  {
+    "id": "recruiter",
+    "title": "Recruiter (Entry Level)",
+    "description": "Sources, screens, and hires candidates for organizations. Builds relationships with job seekers and hiring managers to fill roles quickly and well.",
+    "skills01": {
+      "Communication": 0.95,
+      "Collaboration": 0.85,
+      "Time Management": 0.8,
+      "Negotiation": 0.7,
+      "Client Relations": 0.75,
+      "Active Listening": 0.8
+    },
+    "courses01": {
+      "PSY 1": 0.7,
+      "SOC 1": 0.65
+    },
+    "clubs01": {
+      "Career Center": 0.9,
+      "Career Fellows": 0.85,
+      "The Women's Network": 0.75
+    },
+    "idealPreferences": {
+      "teamVsIndependent": 85,
+      "analyticalVsCreative": 55,
+      "structuredVsFlexible": 60
+    },
+    "scoringWeights": {
+      "skills": 0.55,
+      "courses": 0.22,
+      "clubs": 0.11,
+      "preferences": 0.12
+    }
+  },
+  {
+    "id": "customer_success_manager",
+    "title": "Customer Success Manager",
+    "description": "Ensures clients get value from a product or service. Builds long-term relationships, reduces churn, and serves as the voice of the customer inside the company.",
+    "skills01": {
+      "Client Relations": 0.95,
+      "Communication": 0.95,
+      "Problem Solving": 0.85,
+      "Account Management": 0.8,
+      "Project Management": 0.65,
+      "Product Management": 0.6
+    },
+    "courses01": {
+      "TML 13": 0.8,
+      "ENT 101": 0.7
+    },
+    "clubs01": {
+      "Career Center": 0.75,
+      "Alpha Kappa Psi": 0.7
+    },
+    "idealPreferences": {
+      "teamVsIndependent": 85,
+      "analyticalVsCreative": 55,
+      "structuredVsFlexible": 60
+    },
+    "scoringWeights": {
+      "skills": 0.55,
+      "courses": 0.22,
+      "clubs": 0.11,
+      "preferences": 0.12
+    }
+  },
+  {
+    "id": "event_planner",
+    "title": "Event Planner / Coordinator",
+    "description": "Organizes conferences, corporate events, galas, and experiential activations. Manages vendors, logistics, budgets, and timelines simultaneously.",
+    "skills01": {
+      "Event Planning": 0.95,
+      "Coordination": 0.9,
+      "Time Management": 0.9,
+      "Communication": 0.85,
+      "Budgeting": 0.75,
+      "Negotiation": 0.65,
+      "Collaboration": 0.75
+    },
+    "courses01": {
+      "TML 13": 0.75,
+      "ENT 101": 0.7
+    },
+    "clubs01": {
+      "Tufts Community Union (TCU) Treasury": 0.75,
+      "Office for Campus Life": 0.8,
+      "Leonard Carmichael Society (LCS)": 0.7
+    },
+    "idealPreferences": {
+      "structuredVsFlexible": 65,
+      "teamVsIndependent": 85,
+      "analyticalVsCreative": 60
+    },
+    "scoringWeights": {
+      "skills": 0.55,
+      "courses": 0.22,
+      "clubs": 0.11,
+      "preferences": 0.12
+    }
+  },
+  {
+    "id": "teaching_assistant",
+    "title": "Teaching Assistant / Academic Tutor",
+    "description": "Supports student learning in academic settings. Leads recitations, grades work, holds office hours, and assists faculty in undergraduate or graduate courses.",
+    "skills01": {
+      "Teaching / Instruction": 0.95,
+      "Communication": 0.9,
+      "Mentorship": 0.85,
+      "Public Speaking": 0.75,
+      "Leadership": 0.65,
+      "Active Listening": 0.8
+    },
+    "courses01": {
+      "ENG 1": 0.75,
+      "CS 15": 0.7,
+      "MATH 32": 0.7
+    },
+    "clubs01": {
+      "Tutoring": 0.95,
+      "Tutors for Hope": 0.85,
+      "StAAR Center": 0.8
+    },
+    "idealPreferences": {
+      "teamVsIndependent": 75,
+      "analyticalVsCreative": 55,
+      "structuredVsFlexible": 55
+    },
+    "scoringWeights": {
+      "skills": 0.55,
+      "courses": 0.22,
+      "clubs": 0.11,
+      "preferences": 0.12
+    }
+  },
+    {
+      "id": "communications_coordinator",
+      "title": "Communications Coordinator",
+      "description": "Supports an organization’s messaging and outreach by writing content, coordinating campaigns, and aligning stakeholders across projects.",
+      "skills01": {
+        "Communication": 0.95,
+        "Writing": 0.9,
+        "Project Management": 0.85,
+        "Social Media Content Creation": 0.75,
+        "Storytelling": 0.75,
+        "Presentation Skills": 0.7
+      },
+      "courses01": {
+        "ENG (any)": 0.8,
+        "FMS (any)": 0.75,
+        "COMM (any)": 0.75,
+        "POL (any)": 0.65
+      },
+      "clubs01": {
+        "Tufts Daily": 0.95,
+        "Her Campus": 0.9,
+        "Observer": 0.85,
+        "Marketing": 0.8
+      },
+      "idealPreferences": {
+        "teamVsIndependent": 70,
+        "analyticalVsCreative": 75,
+        "structuredVsFlexible": 60
+      },
+      "scoringWeights": {
+        "skills": 0.55,
+        "courses": 0.22,
+        "clubs": 0.11,
+        "preferences": 0.12
+      }
+    },
+    {
+      "id": "public_relations_associate",
+      "title": "Public Relations Associate",
+      "description": "Helps shape public perception through messaging, media outreach, relationship building, and communication strategy.",
+      "skills01": {
+        "Communication": 0.95,
+        "Storytelling": 0.9,
+        "Networking": 0.85,
+        "Social Media Content Creation": 0.75,
+        "Presentation Skills": 0.7,
+        "Crisis Management": 0.65
+      },
+      "courses01": {
+        "ENG (any)": 0.8,
+        "FMS (any)": 0.75,
+        "POL (any)": 0.7,
+        "SOC (any)": 0.65
+      },
+      "clubs01": {
+        "Tufts Daily": 0.95,
+        "Her Campus": 0.9,
+        "Public Relations": 0.85,
+        "Marketing": 0.8
+      },
+      "idealPreferences": {
+        "teamVsIndependent": 80,
+        "analyticalVsCreative": 70,
+        "structuredVsFlexible": 55
+      },
+      "scoringWeights": {
+        "skills": 0.55,
+        "courses": 0.22,
+        "clubs": 0.11,
+        "preferences": 0.12
+      }
+    },
+    {
+      "id": "academic_advisor_entry",
+      "title": "Academic Advisor (Entry)",
+      "description": "Guides students in academic planning, goal setting, and navigating resources, while coordinating support across campus.",
+      "skills01": {
+        "Communication": 0.95,
+        "Mentorship": 0.9,
+        "Organization": 0.85,
+        "Conflict Resolution": 0.75,
+        "Coaching": 0.7,
+        "Public Speaking": 0.65
+      },
+      "courses01": {
+        "PSY (any)": 0.8,
+        "SOC (any)": 0.75,
+        "EDU (any)": 0.75,
+        "PHIL (any)": 0.65
+      },
+      "clubs01": {
+        "Mentor": 0.95,
+        "Tutoring": 0.9,
+        "LCS": 0.85,
+        "TCU": 0.8
+      },
+      "idealPreferences": {
+        "teamVsIndependent": 85,
+        "analyticalVsCreative": 55,
+        "structuredVsFlexible": 55
+      },
+      "scoringWeights": {
+        "skills": 0.55,
+        "courses": 0.22,
+        "clubs": 0.11,
+        "preferences": 0.12
+      }
+    },
+    {
+      "id": "human_resources_coordinator",
+      "title": "Human Resources Coordinator",
+      "description": "Supports hiring and people operations by coordinating processes, communication, and employee experience across teams.",
+      "skills01": {
+        "Communication": 0.95,
+        "Organization": 0.9,
+        "Collaboration": 0.85,
+        "Conflict Resolution": 0.75,
+        "Negotiation": 0.7,
+        "Project Management": 0.7
+      },
+      "courses01": {
+        "PSY (any)": 0.8,
+        "SOC (any)": 0.75,
+        "TML (any)": 0.7,
+        "EM (any)": 0.65
+      },
+      "clubs01": {
+        "The Women's Network": 0.95,
+        "Career Center": 0.9,
+        "Mentor": 0.85
+      },
+      "idealPreferences": {
+        "teamVsIndependent": 85,
+        "analyticalVsCreative": 55,
+        "structuredVsFlexible": 55
+      },
+      "scoringWeights": {
+        "skills": 0.55,
+        "courses": 0.22,
+        "clubs": 0.11,
+        "preferences": 0.12
+      }
+    },
+    {
+      "id": "nonprofit_program_assistant",
+      "title": "Nonprofit Program Assistant",
+      "description": "Helps run community or nonprofit programs by coordinating logistics, communication, and day-to-day operations.",
+      "skills01": {
+        "Coordination": 0.95,
+        "Communication": 0.9,
+        "Organization": 0.85,
+        "Event Planning": 0.75,
+        "Grant Writing": 0.65,
+        "Project Management": 0.7
+      },
+      "courses01": {
+        "CVS (any)": 0.8,
+        "SOC (any)": 0.75,
+        "POL (any)": 0.7,
+        "PS (any)": 0.65
+      },
+      "clubs01": {
+        "Jumbos for Nonprofits": 0.95,
+        "LCS": 0.9,
+        "Tisch": 0.85,
+        "UNICEF": 0.8
+      },
+      "idealPreferences": {
+        "teamVsIndependent": 85,
+        "analyticalVsCreative": 60,
+        "structuredVsFlexible": 65
+      },
+      "scoringWeights": {
+        "skills": 0.55,
+        "courses": 0.22,
+        "clubs": 0.11,
+        "preferences": 0.12
+      }
+    },
+    {
+      "id": "fundraising_development_associate",
+      "title": "Fundraising / Development Associate",
+      "description": "Supports fundraising efforts through donor communication, event coordination, and relationship-building activities.",
+      "skills01": {
+        "Communication": 0.95,
+        "Writing": 0.9,
+        "Relationship Building": 0.85,
+        "Event Planning": 0.75,
+        "Presentation Skills": 0.7,
+        "Project Management": 0.7
+      },
+      "courses01": {
+        "CVS (any)": 0.8,
+        "ENG (any)": 0.75,
+        "SOC (any)": 0.7,
+        "POL (any)": 0.65
+      },
+      "clubs01": {
+        "Jumbos for Nonprofits": 0.95,
+        "LCS": 0.9,
+        "Tisch": 0.85,
+        "UNICEF": 0.8
+      },
+      "idealPreferences": {
+        "teamVsIndependent": 85,
+        "analyticalVsCreative": 65,
+        "structuredVsFlexible": 60
+      },
+      "scoringWeights": {
+        "skills": 0.55,
+        "courses": 0.22,
+        "clubs": 0.11,
+        "preferences": 0.12
+      }
+    },
+    {
+      "id": "patient_advocate",
+      "title": "Patient Advocate",
+      "description": "Helps patients navigate services and resources by resolving issues, coordinating support, and communicating clearly with stakeholders.",
+      "skills01": {
+        "Communication": 0.95,
+        "Empathy": 0.9,
+        "Problem Solving": 0.85,
+        "Conflict Resolution": 0.75,
+        "Coordination": 0.7,
+        "Public Speaking": 0.65
+      },
+      "courses01": {
+        "CH (any)": 0.8,
+        "BIO (any)": 0.75,
+        "PSY (any)": 0.7,
+        "SOC (any)": 0.65
+      },
+      "clubs01": {
+        "MEDLIFE": 0.95,
+        "Public Health": 0.9,
+        "Doctors Without Borders": 0.85,
+        "UNICEF": 0.8
+      },
+      "idealPreferences": {
+        "teamVsIndependent": 80,
+        "analyticalVsCreative": 55,
+        "structuredVsFlexible": 55
+      },
+      "scoringWeights": {
+        "skills": 0.55,
+        "courses": 0.22,
+        "clubs": 0.11,
+        "preferences": 0.12
+      }
+    },
+    {
+      "id": "admissions_counselor_entry",
+      "title": "Admissions Counselor (Entry)",
+      "description": "Supports recruitment and advising through presentations, student outreach, and coordination of admissions activities.",
+      "skills01": {
+        "Communication": 0.95,
+        "Public Speaking": 0.9,
+        "Organization": 0.85,
+        "Mentorship": 0.75,
+        "Presentation Skills": 0.7,
+        "Relationship Building": 0.7
+      },
+      "courses01": {
+        "EDU (any)": 0.8,
+        "PSY (any)": 0.75,
+        "SOC (any)": 0.7,
+        "ENG (any)": 0.65
+      },
+      "clubs01": {
+        "TCU": 0.95,
+        "Tour": 0.85,
+        "Mentor": 0.9,
+        "Tutoring": 0.8
+      },
+      "idealPreferences": {
+        "teamVsIndependent": 85,
+        "analyticalVsCreative": 60,
+        "structuredVsFlexible": 55
+      },
+      "scoringWeights": {
+        "skills": 0.55,
+        "courses": 0.22,
+        "clubs": 0.11,
+        "preferences": 0.12
+      }
+    },
+    {
+      "id": "creative_producer",
+      "title": "Creative Producer",
+      "description": "Coordinates creative projects end-to-end by managing timelines, stakeholders, and story-driven content production.",
+      "skills01": {
+        "Project Management": 0.95,
+        "Storytelling": 0.9,
+        "Collaboration": 0.85,
+        "Video Editing (Premiere, Final Cut)": 0.75,
+        "Presentation Design": 0.7,
+        "Social Media Content Creation": 0.7
+      },
+      "courses01": {
+        "FMS (any)": 0.8,
+        "MDIA (any)": 0.75,
+        "ENG (any)": 0.7,
+        "GRA (any)": 0.65
+      },
+      "clubs01": {
+        "TUTV": 0.95,
+        "WMFO": 0.9,
+        "Tufts Daily": 0.85,
+        "Her Campus": 0.8
+      },
+      "idealPreferences": {
+        "teamVsIndependent": 75,
+        "analyticalVsCreative": 85,
+        "structuredVsFlexible": 70
+      },
+      "scoringWeights": {
+        "skills": 0.55,
+        "courses": 0.22,
+        "clubs": 0.11,
+        "preferences": 0.12
+      }
+    },
+    {
+      "id": "student_success_coach",
+      "title": "Student Success Coach",
+      "description": "Supports student progress through mentoring, goal-setting, and connecting students with academic and campus resources.",
+      "skills01": {
+        "Communication": 0.95,
+        "Mentorship": 0.9,
+        "Organization": 0.85,
+        "Coaching": 0.75,
+        "Time Management": 0.7
+      },
+      "courses01": {
+        "EDU (any)": 0.8,
+        "PSY (any)": 0.75,
+        "SOC (any)": 0.7
+      },
+      "clubs01": {
+        "Mentor": 0.95,
+        "Tutoring": 0.9,
+        "LCS": 0.85
+      },
+      "idealPreferences": {
+        "teamVsIndependent": 80,
+        "analyticalVsCreative": 55,
+        "structuredVsFlexible": 55
+      },
+      "scoringWeights": {
+        "skills": 0.55,
+        "courses": 0.22,
+        "clubs": 0.11,
+        "preferences": 0.12
+      }
+    },
+    {
+      "id": "academic_program_assistant",
+      "title": "Academic Program Assistant",
+      "description": "Supports academic programs through scheduling, coordination, communication, and administrative organization.",
+      "skills01": {
+        "Organization": 0.95,
+        "Communication": 0.9,
+        "Coordination": 0.85,
+        "Project Management": 0.75,
+        "Time Management": 0.7
+      },
+      "courses01": {
+        "EDU (any)": 0.8,
+        "SOC (any)": 0.7,
+        "PSY (any)": 0.7
+      },
+      "clubs01": {
+        "TCU": 0.9,
+        "Office": 0.85
+      },
+      "idealPreferences": {
+        "teamVsIndependent": 55,
+        "analyticalVsCreative": 55,
+        "structuredVsFlexible": 60
+      },
+      "scoringWeights": {
+        "skills": 0.55,
+        "courses": 0.22,
+        "clubs": 0.11,
+        "preferences": 0.12
+      }
+    },
+    {
+      "id": "communications_assistant",
+      "title": "Communications Assistant",
+      "description": "Assists with writing, coordination, and content distribution to support communications and outreach efforts.",
+      "skills01": {
+        "Communication": 0.95,
+        "Writing": 0.9,
+        "Organization": 0.85,
+        "Social Media Content Creation": 0.75,
+        "Storytelling": 0.7
+      },
+      "courses01": {
+        "ENG (any)": 0.8,
+        "FMS (any)": 0.7,
+        "COMM (any)": 0.7
+      },
+      "clubs01": {
+        "Tufts Daily": 0.95,
+        "Her Campus": 0.9
+      },
+      "idealPreferences": {
+        "teamVsIndependent": 55,
+        "analyticalVsCreative": 70,
+        "structuredVsFlexible": 55
+      },
+      "scoringWeights": {
+        "skills": 0.55,
+        "courses": 0.22,
+        "clubs": 0.11,
+        "preferences": 0.12
+      }
+    },
+    {
+      "id": "editorial_assistant",
+      "title": "Editorial Assistant",
+      "description": "Supports editorial workflows by editing, organizing drafts, and ensuring quality, clarity, and consistency in written content.",
+      "skills01": {
+        "Writing": 0.95,
+        "Attention to Detail": 0.9,
+        "Communication": 0.85,
+        "Editing": 0.75,
+        "Time Management": 0.7
+      },
+      "courses01": {
+        "ENG (any)": 0.8,
+        "FMS (any)": 0.7
+      },
+      "clubs01": {
+        "Tufts Daily": 0.95,
+        "Observer": 0.9
+      },
+      "idealPreferences": {
+        "teamVsIndependent": 55,
+        "analyticalVsCreative": 75,
+        "structuredVsFlexible": 55
+      },
+      "scoringWeights": {
+        "skills": 0.55,
+        "courses": 0.22,
+        "clubs": 0.11,
+        "preferences": 0.12
+      }
+    },
+    {
+      "id": "people_operations_assistant",
+      "title": "People Operations Assistant",
+      "description": "Supports people-focused processes such as onboarding, coordination, and internal communication to improve employee experience.",
+      "skills01": {
+        "Communication": 0.95,
+        "Organization": 0.9,
+        "Collaboration": 0.85,
+        "Conflict Resolution": 0.75,
+        "Project Management": 0.7
+      },
+      "courses01": {
+        "PSY (any)": 0.8,
+        "SOC (any)": 0.75,
+        "TML (any)": 0.65
+      },
+      "clubs01": {
+        "The Women's Network": 0.95,
+        "Career Center": 0.9
+      },
+      "idealPreferences": {
+        "teamVsIndependent": 85,
+        "analyticalVsCreative": 55,
+        "structuredVsFlexible": 55
+      },
+      "scoringWeights": {
+        "skills": 0.55,
+        "courses": 0.22,
+        "clubs": 0.11,
+        "preferences": 0.12
+      }
+    },
+    {
+      "id": "recruiting_coordinator",
+      "title": "Recruiting Coordinator",
+      "description": "Coordinates recruiting logistics by scheduling, communicating with candidates, and supporting hiring processes end-to-end.",
+      "skills01": {
+        "Communication": 0.95,
+        "Organization": 0.9,
+        "Relationship Building": 0.85,
+        "Interviewing": 0.75,
+        "Time Management": 0.7
+      },
+      "courses01": {
+        "PSY (any)": 0.75,
+        "SOC (any)": 0.7,
+        "COMM (any)": 0.7
+      },
+      "clubs01": {
+        "Career Center": 0.95,
+        "Mentor": 0.85
+      },
+      "idealPreferences": {
+        "teamVsIndependent": 80,
+        "analyticalVsCreative": 55,
+        "structuredVsFlexible": 55
+      },
+      "scoringWeights": {
+        "skills": 0.55,
+        "courses": 0.22,
+        "clubs": 0.11,
+        "preferences": 0.12
+      }
+    },
+    {
+      "id": "community_outreach_coordinator",
+      "title": "Community Outreach Coordinator",
+      "description": "Builds partnerships and runs outreach initiatives through communication, relationship building, and event coordination.",
+      "skills01": {
+        "Communication": 0.95,
+        "Relationship Building": 0.9,
+        "Organization": 0.85,
+        "Event Planning": 0.75,
+        "Public Speaking": 0.7
+      },
+      "courses01": {
+        "CVS (any)": 0.8,
+        "SOC (any)": 0.75,
+        "POL (any)": 0.65
+      },
+      "clubs01": {
+        "LCS": 0.95,
+        "Tisch": 0.9,
+        "UNICEF": 0.85
+      },
+      "idealPreferences": {
+        "teamVsIndependent": 85,
+        "analyticalVsCreative": 55,
+        "structuredVsFlexible": 55
+      },
+      "scoringWeights": {
+        "skills": 0.55,
+        "courses": 0.22,
+        "clubs": 0.11,
+        "preferences": 0.12
+      }
+    },
+    {
+      "id": "advocacy_program_assistant",
+      "title": "Advocacy Program Assistant",
+      "description": "Supports advocacy initiatives through research, writing, coordination, and clear communication with communities and partners.",
+      "skills01": {
+        "Communication": 0.95,
+        "Research": 0.9,
+        "Organization": 0.85,
+        "Writing": 0.75,
+        "Public Speaking": 0.7
+      },
+      "courses01": {
+        "POL (any)": 0.8,
+        "SOC (any)": 0.75,
+        "PS (any)": 0.65
+      },
+      "clubs01": {
+        "Tisch": 0.95,
+        "Advocacy": 0.85
+      },
+      "idealPreferences": {
+        "teamVsIndependent": 55,
+        "analyticalVsCreative": 65,
+        "structuredVsFlexible": 55
+      },
+      "scoringWeights": {
+        "skills": 0.55,
+        "courses": 0.22,
+        "clubs": 0.11,
+        "preferences": 0.12
+      }
+    },
+    {
+      "id": "research_assistant_social_sciences",
+      "title": "Research Assistant (Social Sciences)",
+      "description": "Supports social science research through organizing studies, assisting with methods, and communicating findings clearly.",
+      "skills01": {
+        "Research Methods": 0.95,
+        "Organization": 0.9,
+        "Communication": 0.85,
+        "Data Analysis": 0.75,
+        "Writing": 0.7
+      },
+      "courses01": {
+        "PSY (any)": 0.8,
+        "SOC (any)": 0.75,
+        "POL (any)": 0.65
+      },
+      "clubs01": {
+        "ResearcHERS": 0.95,
+        "Research": 0.85
+      },
+      "idealPreferences": {
+        "teamVsIndependent": 55,
+        "analyticalVsCreative": 55,
+        "structuredVsFlexible": 55
+      },
+      "scoringWeights": {
+        "skills": 0.55,
+        "courses": 0.22,
+        "clubs": 0.11,
+        "preferences": 0.12
+      }
+    },
+    {
+      "id": "behavioral_health_program_assistant",
+      "title": "Behavioral Health Program Assistant",
+      "description": "Supports behavioral health or wellness programs through communication, organization, and coordination with care resources.",
+      "skills01": {
+        "Empathy": 0.95,
+        "Communication": 0.9,
+        "Organization": 0.85,
+        "Conflict Resolution": 0.75,
+        "Research Methods": 0.65
+      },
+      "courses01": {
+        "PSY (any)": 0.8,
+        "SOC (any)": 0.7,
+        "CH (any)": 0.65
+      },
+      "clubs01": {
+        "Mental Health": 0.9,
+        "Public Health": 0.85
+      },
+      "idealPreferences": {
+        "teamVsIndependent": 80,
+        "analyticalVsCreative": 55,
+        "structuredVsFlexible": 55
+      },
+      "scoringWeights": {
+        "skills": 0.55,
+        "courses": 0.22,
+        "clubs": 0.11,
+        "preferences": 0.12
+      }
+    },
+    {
+      "id": "events_coordinator",
+      "title": "Events Coordinator",
+      "description": "Plans and executes events by managing logistics, communication, timelines, and cross-team coordination.",
+      "skills01": {
+        "Event Planning": 0.95,
+        "Organization": 0.9,
+        "Communication": 0.85,
+        "Time Management": 0.75,
+        "Problem Solving": 0.7
+      },
+      "courses01": {
+        "TML (any)": 0.8,
+        "ENT (any)": 0.7,
+        "COMM (any)": 0.65
+      },
+      "clubs01": {
+        "Programming Board": 0.95,
+        "TCU": 0.85
+      },
+      "idealPreferences": {
+        "teamVsIndependent": 55,
+        "analyticalVsCreative": 55,
+        "structuredVsFlexible": 70
+      },
+      "scoringWeights": {
+        "skills": 0.55,
+        "courses": 0.22,
+        "clubs": 0.11,
+        "preferences": 0.12
+      }
+    },
+    {
+      "id": "arts_program_assistant",
+      "title": "Arts Program Assistant",
+      "description": "Supports arts or creative programs by coordinating operations, communications, and event-related logistics.",
+      "skills01": {
+        "Organization": 0.95,
+        "Communication": 0.9,
+        "Creativity": 0.85,
+        "Event Planning": 0.75,
+        "Marketing Strategy": 0.65
+      },
+      "courses01": {
+        "FMS (any)": 0.75,
+        "GRA (any)": 0.75,
+        "ART (any)": 0.7
+      },
+      "clubs01": {
+        "Arts": 0.9,
+        "Design": 0.85
+      },
+      "idealPreferences": {
+        "teamVsIndependent": 55,
+        "analyticalVsCreative": 80,
+        "structuredVsFlexible": 55
+      },
+      "scoringWeights": {
+        "skills": 0.55,
+        "courses": 0.22,
+        "clubs": 0.11,
+        "preferences": 0.12
+      }
+    },
+    {
+      "id": "operations_assistant",
+      "title": "Operations Assistant",
+      "description": "Supports day-to-day operations by keeping processes organized, communicating clearly, and solving logistical problems.",
+      "skills01": {
+        "Organization": 0.95,
+        "Problem Solving": 0.9,
+        "Communication": 0.85,
+        "Project Management": 0.75,
+        "Time Management": 0.7
+      },
+      "courses01": {
+        "TML (any)": 0.75,
+        "EM (any)": 0.7,
+        "EC (any)": 0.65
+      },
+      "clubs01": {
+        "ESC": 0.9,
+        "TCU": 0.85
+      },
+      "idealPreferences": {
+        "teamVsIndependent": 55,
+        "analyticalVsCreative": 55,
+        "structuredVsFlexible": 50
+      },
+      "scoringWeights": {
+        "skills": 0.55,
+        "courses": 0.22,
+        "clubs": 0.11,
+        "preferences": 0.12
+      }
+    },
+    {
+      "id": "client_services_associate",
+      "title": "Client Services Associate",
+      "description": "Supports clients by communicating clearly, building relationships, and resolving issues to improve customer outcomes.",
+      "skills01": {
+        "Communication": 0.95,
+        "Relationship Building": 0.9,
+        "Problem Solving": 0.85,
+        "Time Management": 0.75,
+        "Presentation Skills": 0.7
+      },
+      "courses01": {
+        "COMM (any)": 0.75,
+        "SOC (any)": 0.7,
+        "EC (any)": 0.65
+      },
+      "clubs01": {
+        "Career Center": 0.9,
+        "Consulting": 0.85
+      },
+      "idealPreferences": {
+        "teamVsIndependent": 75,
+        "analyticalVsCreative": 55,
+        "structuredVsFlexible": 55
+      },
+      "scoringWeights": {
+        "skills": 0.55,
+        "courses": 0.22,
+        "clubs": 0.11,
+        "preferences": 0.12
+      }
+    }
+]
