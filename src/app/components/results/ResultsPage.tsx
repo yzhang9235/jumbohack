@@ -1,23 +1,25 @@
-
 // UseState let the component remember something (state) when the user interacts
 // with it 
 // Use to remember which card (career match) is expanded
 import { useState } from "react";
 
 // Connect with UI components 
-import { Card } from "./ui/card";
-import { Button } from "./ui/button";
-import { Progress } from "./ui/progress";
+import { Card } from "../ui/card";
+import { Button } from "../ui/button";
+import { Progress } from "../ui/progress";
 
 // Showing different icons from the library
 import { ChevronDown, ChevronUp, ArrowLeft, Target, Lightbulb } from "lucide-react";
 
 // Import the different files in the folder
-import type { UserFormData } from "./types";
+import type { UserFormData } from "../input/types";
 
 // Import function that takes user's answer and return career matches
 /* keeps career matching from roles*/
 import { generateCareerMatches } from "./roles";
+
+// Import functions that export results as files
+import { handleExportJSON, handleExportTXT, handleExportPDF } from "./HandleExports";
 
 // Properties expected by ResultsPage 
 interface ResultsPageProps {
@@ -51,54 +53,6 @@ function downloadFile(filename: string, content: string, mimeType: string) {
   URL.revokeObjectURL(url);
 }
 
-// Export as JSON (best for saving + re-importing later)
-function handleExportJSON() {
-  const exportData = {
-    exportedAt: new Date().toISOString(),
-    userFormData,
-    topMatches: careerMatches,
-  };
-
-  downloadFile(
-    "career-results.json",
-    JSON.stringify(exportData, null, 2),
-    "application/json"
-  );
-}
-
-// Export as text (easy for students to read/share)
-function handleExportTXT() {
-  const lines: string[] = [];
-
-  lines.push("Your Top Career Matches");
-  lines.push(`Exported: ${new Date().toLocaleString()}`);
-  lines.push("");
-
-  careerMatches.forEach((match, idx) => {
-    lines.push(`#${idx + 1}: ${match.title} (${match.matchPercentage}%)`);
-    lines.push("Why this matches you:");
-    match.whyMatches.forEach((r) => lines.push(`- ${r}`));
-    lines.push("");
-
-    lines.push("Skill gaps:");
-    match.skillGaps.forEach((g) => lines.push(`- ${g}`));
-    lines.push("");
-
-    lines.push("Next steps:");
-    lines.push("  Recommended courses:");
-    match.nextSteps.courses.forEach((c) => lines.push(`  - ${c}`));
-    lines.push("  Clubs to join:");
-    match.nextSteps.clubs.forEach((c) => lines.push(`  - ${c}`));
-    lines.push("  Skills to build:");
-    match.nextSteps.skills.forEach((s) => lines.push(`  - ${s}`));
-    lines.push("");
-    lines.push("--------------------------------------------------");
-    lines.push("");
-  });
-
-  downloadFile("career-results.txt", lines.join("\n"), "text/plain");
-}
-
   return (
     // outer container for the entire page
     <div className="min-h-screen bg-gradient-to-br from-blue-50 via-amber-50/30 to-slate-50 py-12 px-4"> 
@@ -120,14 +74,19 @@ function handleExportTXT() {
 
             {/* Export Results */}
             <div className="flex justify-end gap-2">
-              <Button onClick={handleExportJSON} variant="ghost"
+              <Button onClick={() => handleExportJSON(userFormData, careerMatches)} variant="ghost"
               className="text-slate-500 hover:text-slate-700">
                 Export Results (JSON)
               </Button>
 
-              <Button onClick={handleExportTXT} variant="ghost"
+              <Button onClick={() => handleExportTXT(careerMatches)} variant="ghost"
               className="text-slate-500 hover:text-slate-700">
                 Export Results (TXT)
+              </Button>
+
+              <Button onClick={() => handleExportPDF(careerMatches)} variant="ghost"
+              className="text-slate-500 hover:text-slate-700">
+                Export Results (PDF)
               </Button>
             </div>
           </div>
@@ -140,16 +99,6 @@ function handleExportTXT() {
 
           <p className="text-slate-500">Based on your courses, skills, and preferences</p>
         </div>
-
-        {/* <div className="flex flex-wrap gap-3 mt-4">
-          <Button onClick={handleExportJSON} variant="outline">
-            Export Results (JSON)
-          </Button>
-
-          <Button onClick={handleExportTXT} variant="outline">
-            Export Results (TXT)
-          </Button>
-        </div> */}
 
         {/* Results */}
         <div className="space-y-6">

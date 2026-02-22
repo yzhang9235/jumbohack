@@ -1,14 +1,14 @@
 import { useEffect, useState } from "react";
-import { Card } from "./ui/card";
-import { Button } from "./ui/button";
-import { Label } from "./ui/label";
-import { Checkbox } from "./ui/checkbox";
-import { Slider } from "./ui/slider";
+import { Card } from "../ui/card";
+import { Button } from "../ui/button";
+import { Label } from "../ui/label";
+import { Checkbox } from "../ui/checkbox";
+import { Slider } from "../ui/slider";
 import { ChevronDown, BookOpen, Lightbulb, Users, Sliders } from "lucide-react";
 import type { UserFormData } from "./types";
-import { COURSES } from "./data/classes";
-import { SKILLS_BY_CATEGORY } from "./data/skills";
-import { CLUBS_BY_CATEGORY } from "./data/clubs";
+import { COURSES } from "../data/classes";
+import { SKILLS_BY_CATEGORY } from "../data/skills";
+import { CLUBS_BY_CATEGORY } from "../data/clubs";
 
 interface InputFormProps {
   onSubmit: (data: UserFormData) => void;
@@ -344,7 +344,7 @@ export function InputForm({ onSubmit, initialData }: InputFormProps) {
             </div>
           </Card>
 
-          {/*  Work Preferences  */}
+          {/* Work Preferences */}
           <Card className="p-6 shadow-sm hover:shadow-md transition-shadow bg-white rounded-xl border border-slate-200/60">
             <div className="space-y-6">
               <div className="flex items-center gap-2 mb-1">

@@ -1,7 +1,7 @@
 import { useState } from "react";
-import { InputForm } from "./components/InputFormComponent";
-import type { UserFormData } from "./components/types";
-import { ResultsPage } from "./components/ResultsPage";
+import { InputForm } from "./components/input/InputFormComponent";
+import type { UserFormData } from "./components/input/types";
+import { ResultsPage } from "./components/results/ResultsPage";
 
 export default function App() {
   // Track which page is visible and the user's submitted form data

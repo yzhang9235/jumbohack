@@ -1,10 +1,10 @@
 // Import TypeScript type that describes user's form answers 
-import type { UserFormData } from "./types";
+import type { UserFormData } from "../input/types";
 // Import list of courses used for recommending courses the user hasn't take
-import { COURSES } from "./data/classes";
+import { COURSES } from "../data/classes";
 // Import an object that groups name by category 
-import { CLUBS_BY_CATEGORY } from "./data/clubs";
-import ROLE_DATA from "./data/roles.json";
+import { CLUBS_BY_CATEGORY } from "../data/clubs";
+import ROLE_DATA from "../data/roles.json";
 // Skill level must be one of these
 export type SkillLevel = "Beginner" | "Intermediate" | "Advanced";
 

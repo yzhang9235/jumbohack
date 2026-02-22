@@ -2589,10 +2589,10 @@
         "Presentation Skills": 0.7
       },
       "courses01": {
-        "ENG (any)": 0.8,
-        "FMS (any)": 0.75,
-        "COMM (any)": 0.75,
-        "POL (any)": 0.65
+        "ENG ": 0.8,
+        "FMS ": 0.75,
+        "COMM ": 0.75,
+        "POL ": 0.65
       },
       "clubs01": {
         "Tufts Daily": 0.95,
@@ -2625,10 +2625,10 @@
         "Crisis Management": 0.65
       },
       "courses01": {
-        "ENG (any)": 0.8,
-        "FMS (any)": 0.75,
-        "POL (any)": 0.7,
-        "SOC (any)": 0.65
+        "ENG ": 0.8,
+        "FMS ": 0.75,
+        "POL ": 0.7,
+        "SOC ": 0.65
       },
       "clubs01": {
         "Tufts Daily": 0.95,
@@ -2661,10 +2661,10 @@
         "Public Speaking": 0.65
       },
       "courses01": {
-        "PSY (any)": 0.8,
-        "SOC (any)": 0.75,
-        "EDU (any)": 0.75,
-        "PHIL (any)": 0.65
+        "PSY ": 0.8,
+        "SOC ": 0.75,
+        "EDU ": 0.75,
+        "PHIL ": 0.65
       },
       "clubs01": {
         "Mentor": 0.95,
@@ -2697,10 +2697,10 @@
         "Project Management": 0.7
       },
       "courses01": {
-        "PSY (any)": 0.8,
-        "SOC (any)": 0.75,
-        "TML (any)": 0.7,
-        "EM (any)": 0.65
+        "PSY ": 0.8,
+        "SOC ": 0.75,
+        "TML ": 0.7,
+        "EM ": 0.65
       },
       "clubs01": {
         "The Women's Network": 0.95,
@@ -2732,10 +2732,10 @@
         "Project Management": 0.7
       },
       "courses01": {
-        "CVS (any)": 0.8,
-        "SOC (any)": 0.75,
-        "POL (any)": 0.7,
-        "PS (any)": 0.65
+        "CVS ": 0.8,
+        "SOC ": 0.75,
+        "POL ": 0.7,
+        "PS ": 0.65
       },
       "clubs01": {
         "Jumbos for Nonprofits": 0.95,
@@ -2768,10 +2768,10 @@
         "Project Management": 0.7
       },
       "courses01": {
-        "CVS (any)": 0.8,
-        "ENG (any)": 0.75,
-        "SOC (any)": 0.7,
-        "POL (any)": 0.65
+        "CVS ": 0.8,
+        "ENG ": 0.75,
+        "SOC ": 0.7,
+        "POL ": 0.65
       },
       "clubs01": {
         "Jumbos for Nonprofits": 0.95,
@@ -2804,10 +2804,10 @@
         "Public Speaking": 0.65
       },
       "courses01": {
-        "CH (any)": 0.8,
-        "BIO (any)": 0.75,
-        "PSY (any)": 0.7,
-        "SOC (any)": 0.65
+        "CH ": 0.8,
+        "BIO ": 0.75,
+        "PSY ": 0.7,
+        "SOC ": 0.65
       },
       "clubs01": {
         "MEDLIFE": 0.95,
@@ -2840,10 +2840,10 @@
         "Relationship Building": 0.7
       },
       "courses01": {
-        "EDU (any)": 0.8,
-        "PSY (any)": 0.75,
-        "SOC (any)": 0.7,
-        "ENG (any)": 0.65
+        "EDU ": 0.8,
+        "PSY ": 0.75,
+        "SOC ": 0.7,
+        "ENG ": 0.65
       },
       "clubs01": {
         "TCU": 0.95,
@@ -2876,10 +2876,10 @@
         "Social Media Content Creation": 0.7
       },
       "courses01": {
-        "FMS (any)": 0.8,
-        "MDIA (any)": 0.75,
-        "ENG (any)": 0.7,
-        "GRA (any)": 0.65
+        "FMS ": 0.8,
+        "MDIA ": 0.75,
+        "ENG ": 0.7,
+        "GRA ": 0.65
       },
       "clubs01": {
         "TUTV": 0.95,
@@ -2900,39 +2900,6 @@
       }
     },
     {
-      "id": "student_success_coach",
-      "title": "Student Success Coach",
-      "description": "Supports student progress through mentoring, goal-setting, and connecting students with academic and campus resources.",
-      "skills01": {
-        "Communication": 0.95,
-        "Mentorship": 0.9,
-        "Organization": 0.85,
-        "Coaching": 0.75,
-        "Time Management": 0.7
-      },
-      "courses01": {
-        "EDU (any)": 0.8,
-        "PSY (any)": 0.75,
-        "SOC (any)": 0.7
-      },
-      "clubs01": {
-        "Mentor": 0.95,
-        "Tutoring": 0.9,
-        "LCS": 0.85
-      },
-      "idealPreferences": {
-        "teamVsIndependent": 80,
-        "analyticalVsCreative": 55,
-        "structuredVsFlexible": 55
-      },
-      "scoringWeights": {
-        "skills": 0.55,
-        "courses": 0.22,
-        "clubs": 0.11,
-        "preferences": 0.12
-      }
-    },
-    {
       "id": "academic_program_assistant",
       "title": "Academic Program Assistant",
       "description": "Supports academic programs through scheduling, coordination, communication, and administrative organization.",
@@ -2944,9 +2911,9 @@
         "Time Management": 0.7
       },
       "courses01": {
-        "EDU (any)": 0.8,
-        "SOC (any)": 0.7,
-        "PSY (any)": 0.7
+        "EDU ": 0.8,
+        "SOC ": 0.7,
+        "PSY ": 0.7
       },
       "clubs01": {
         "TCU": 0.9,
@@ -2976,9 +2943,9 @@
         "Storytelling": 0.7
       },
       "courses01": {
-        "ENG (any)": 0.8,
-        "FMS (any)": 0.7,
-        "COMM (any)": 0.7
+        "ENG ": 0.8,
+        "FMS ": 0.7,
+        "COMM ": 0.7
       },
       "clubs01": {
         "Tufts Daily": 0.95,
@@ -3008,8 +2975,8 @@
         "Time Management": 0.7
       },
       "courses01": {
-        "ENG (any)": 0.8,
-        "FMS (any)": 0.7
+        "ENG ": 0.8,
+        "FMS ": 0.7
       },
       "clubs01": {
         "Tufts Daily": 0.95,
@@ -3039,9 +3006,9 @@
         "Project Management": 0.7
       },
       "courses01": {
-        "PSY (any)": 0.8,
-        "SOC (any)": 0.75,
-        "TML (any)": 0.65
+        "PSY ": 0.8,
+        "SOC ": 0.75,
+        "TML ": 0.65
       },
       "clubs01": {
         "The Women's Network": 0.95,
@@ -3071,9 +3038,9 @@
         "Time Management": 0.7
       },
       "courses01": {
-        "PSY (any)": 0.75,
-        "SOC (any)": 0.7,
-        "COMM (any)": 0.7
+        "PSY ": 0.75,
+        "SOC ": 0.7,
+        "COMM ": 0.7
       },
       "clubs01": {
         "Career Center": 0.95,
@@ -3103,9 +3070,9 @@
         "Public Speaking": 0.7
       },
       "courses01": {
-        "CVS (any)": 0.8,
-        "SOC (any)": 0.75,
-        "POL (any)": 0.65
+        "CVS ": 0.8,
+        "SOC ": 0.75,
+        "POL ": 0.65
       },
       "clubs01": {
         "LCS": 0.95,
@@ -3136,9 +3103,9 @@
         "Public Speaking": 0.7
       },
       "courses01": {
-        "POL (any)": 0.8,
-        "SOC (any)": 0.75,
-        "PS (any)": 0.65
+        "POL ": 0.8,
+        "SOC ": 0.75,
+        "PS ": 0.65
       },
       "clubs01": {
         "Tisch": 0.95,
@@ -3168,9 +3135,9 @@
         "Writing": 0.7
       },
       "courses01": {
-        "PSY (any)": 0.8,
-        "SOC (any)": 0.75,
-        "POL (any)": 0.65
+        "PSY ": 0.8,
+        "SOC ": 0.75,
+        "POL ": 0.65
       },
       "clubs01": {
         "ResearcHERS": 0.95,
@@ -3200,8 +3167,8 @@
         "Research Methods": 0.65
       },
       "courses01": {
-        "PSY (any)": 0.8,
-        "SOC (any)": 0.7,
+        "PSY ": 0.8,
+        "SOC (a": 0.7,
         "CH (any)": 0.65
       },
       "clubs01": {
@@ -3232,12 +3199,12 @@
         "Problem Solving": 0.7
       },
       "courses01": {
-        "TML (any)": 0.8,
-        "ENT (any)": 0.7,
-        "COMM (any)": 0.65
+        "TML ": 0.8,
+        "ENT ": 0.7,
+        "COMM ": 0.65
       },
       "clubs01": {
-        "Programming Board": 0.95,
+        "C. Stacey Woods Programming Board": 0.95,
         "TCU": 0.85
       },
       "idealPreferences": {
@@ -3264,9 +3231,9 @@
         "Marketing Strategy": 0.65
       },
       "courses01": {
-        "FMS (any)": 0.75,
-        "GRA (any)": 0.75,
-        "ART (any)": 0.7
+        "FMS ": 0.75,
+        "GRA ": 0.75,
+        "ART ": 0.7
       },
       "clubs01": {
         "Arts": 0.9,
@@ -3296,9 +3263,9 @@
         "Time Management": 0.7
       },
       "courses01": {
-        "TML (any)": 0.75,
-        "EM (any)": 0.7,
-        "EC (any)": 0.65
+        "TML ": 0.75,
+        "EM ": 0.7,
+        "EC ": 0.65
       },
       "clubs01": {
         "ESC": 0.9,
@@ -3328,9 +3295,9 @@
         "Presentation Skills": 0.7
       },
       "courses01": {
-        "COMM (any)": 0.75,
-        "SOC (any)": 0.7,
-        "EC (any)": 0.65
+        "COMM ": 0.75,
+        "SOC ": 0.7,
+        "EC ": 0.65
       },
       "clubs01": {
         "Career Center": 0.9,
@@ -3345,6 +3312,221 @@
         "skills": 0.55,
         "courses": 0.22,
         "clubs": 0.11,
+        "preferences": 0.12
+      }
+    },
+    {
+      "id": "dancer_performer",
+      "title": "Dancer / Performer",
+      "description": "Performs choreographed or improvised dance pieces in live or recorded settings, collaborating with choreographers and other performers.",
+      "skills01": {
+        "Dance Technique": 0.95,
+        "Physical Stamina": 0.9,
+        "Discipline": 0.85,
+        "Stage Presence": 0.85,
+        "Collaboration": 0.8
+      },
+      "courses01": {
+        "DNC ": 0.85,
+        "TPS ": 0.7,
+        "MUS ": 0.65
+      },
+      "clubs01": {
+        "Tufts Dance Collective": 0.9,
+        "Sarabande Dance Ensemble": 0.85,
+        "Korean Dance Assoication": 0.85
+
+      },
+      "idealPreferences": {
+        "teamVsIndependent": 70,
+        "analyticalVsCreative": 90,
+        "structuredVsFlexible": 65
+      },
+      "scoringWeights": {
+        "skills": 0.55,
+        "courses": 0.22,
+        "clubs": 0.11,
+        "preferences": 0.12
+      }
+    },
+    {
+      "id": "singer_vocal_performer",
+      "title": "Singer / Vocal Performer",
+      "description": "Uses vocal technique and musical expression to perform solo or in ensembles across live, studio, or recorded environments.",
+      "skills01": {
+        "Singing": 0.95,
+        "Stage Presence": 0.9,
+        "Discipline": 0.80,
+        "Collaboration": 0.8
+      },
+      "courses01": {
+        "MUS ": 0.85,
+        "ENG ": 0.75,
+        "TPS ": 0.65
+      },
+      "clubs01": {
+        "Amalgamates": 0.9,
+        "Beelzebubs": 0.9,
+        "Enchanted": 0.9,
+        "Full Sound": 0.9,
+        "Jackson Jills": 0.9,
+        "Ladies of Essence": 0.9,
+        "Low-Keys": 0.9,
+        "S-Factor": 0.9,
+        "Shir Appeal": 0.9,
+        "sQ!": 0.9,
+        "Choir": 0.85,
+        "Music Ensembles": 0.8
+      },
+      "idealPreferences": {
+        "teamVsIndependent": 65,
+        "analyticalVsCreative": 85,
+        "structuredVsFlexible": 60
+      },
+      "scoringWeights": {
+        "skills": 0.55,
+        "courses": 0.22,
+        "clubs": 0.11,
+        "preferences": 0.12
+      }
+    },
+    {
+      "id": "actor_theatre_performer",
+      "title": "Actor / Theatre Performer",
+      "description": "Portrays characters through performance, voice, and movement in theatrical, film, or live productions.",
+      "skills01": {
+        "Acting": 0.95,
+        "Communication": 0.9,
+        "Stage Presence": 0.9,
+        "Emotional Expression": 0.85
+      },
+      "courses01": {
+        "TPS ": 0.85,
+        "FMS ": 0.8,
+        "ENG ": 0.65
+      },
+      "clubs01": {
+        "Performance Club": 0.9,
+        "Turbo": 0.85,
+        "Tap Ensemble": 0.85,
+        "TFL Comedy": 0.85
+      },
+      "idealPreferences": {
+        "teamVsIndependent": 70,
+        "analyticalVsCreative": 80,
+        "structuredVsFlexible": 60
+      },
+      "scoringWeights": {
+        "skills": 0.55,
+        "courses": 0.22,
+        "clubs": 0.11,
+        "preferences": 0.12
+      }
+    },
+    {
+      "id": "musician_instrumentalist",
+      "title": "Musician / Instrumentalist",
+      "description": "Plays musical instruments in solo or ensemble settings, developing technical proficiency and musical interpretation.",
+      "skills01": {
+        "Instrument Performance": 0.95,
+        "Music Theory": 0.85,
+        "Discipline": 0.9,
+        "Collaboration": 0.8,
+        "Musical Interpretation": 0.85
+      },
+      "courses01": {
+        "MUS ": 0.85,
+        "TPS ": 0.75
+      },
+      "clubs01": {
+        "Amalgamates": 0.9,
+        "Beelzebubs": 0.9,
+        "Enchanted": 0.9,
+        "Full Sound": 0.9,
+        "Jackson Jills": 0.9,
+        "Ladies of Essence": 0.9,
+        "Low-Keys": 0.9,
+        "S-Factor": 0.9,
+        "Shir Appeal": 0.9,
+        "sQ!": 0.9,
+        "Choir": 0.85,
+        "Music Ensembles": 0.8,
+        "Wind Ensemble": 0.8
+      },
+      "idealPreferences": {
+        "teamVsIndependent": 60,
+        "analyticalVsCreative": 75,
+        "structuredVsFlexible": 55
+      },
+      "scoringWeights": {
+        "skills": 0.55,
+        "courses": 0.22,
+        "clubs": 0.11,
+        "preferences": 0.12
+      }
+    },
+    {
+      "id": "content_creator_performer",
+      "title": "Content Creator / Performer",
+      "description": "Creates and performs engaging content for digital platforms, combining creativity, performance, and audience engagement.",
+      "skills01": {
+        "Creativity": 0.9,
+        "Performance": 0.85,
+        "Communication": 0.85,
+        "Storytelling": 0.8,
+        "Video Editing": 0.7
+      },
+      "courses01": {
+        "FMS ": 0.8,
+        "MDIA ": 0.75,
+        "ENG ": 0.65
+      },
+      "clubs01": {
+        "Her Campus Tufts": 0.85,
+        "Tufts Daily": 0.8,
+        "WMFO": 0.75
+      },
+      "idealPreferences": {
+        "teamVsIndependent": 75,
+        "analyticalVsCreative": 85,
+        "structuredVsFlexible": 75
+      },
+      "scoringWeights": {
+        "skills": 0.55,
+        "courses": 0.22,
+        "clubs": 0.11,
+        "preferences": 0.12
+      }
+    },
+    {
+      "id": "publishing_editorial_assistant",
+      "title": "Publishing / Editorial Assistant",
+      "description": "Supports book or magazine publishing through manuscript evaluation, copyediting, fact-checking, author communication, and production coordination.",
+      "skills01": {
+        "Editing": 0.92,
+        "Writing": 0.86,
+        "Organization": 0.82,
+        "Communication": 0.8
+      },
+      "courses01": {
+        "ENG ": 0.9,
+        "FMS ": 0.7,
+        "HIST ": 0.65
+      },
+      "clubs01": {
+        "Future Histories Literary Magazine (FH)": 0.86,
+        "Tufts Daily": 0.82,
+        "Book Club": 0.75
+      },
+      "idealPreferences": {
+        "teamVsIndependent": 65,
+        "analyticalVsCreative": 68,
+        "structuredVsFlexible": 62
+      },
+      "scoringWeights": {
+        "skills": 0.58,
+        "courses": 0.22,
+        "clubs": 0.08,
         "preferences": 0.12
       }
     }
